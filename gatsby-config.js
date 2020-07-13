@@ -56,14 +56,6 @@ module.exports = {
           'https://aurabora.us18.list-manage.com/subscribe/post?u=e7beea9e00caf30b70ad5aca6&amp;id=007c905f06',
       },
     },
-    {
-      resolve: `gatsby-source-stripe`,
-      options: {
-        objects: ['Sku', 'Product'],
-        secretKey: process.env.GATSBY_STRIPE_SECRET_KEY,
-        downloadFiles: true,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,

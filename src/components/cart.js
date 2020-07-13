@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { loadStripe } from '@stripe/stripe-js'
 import { formatPrice, cartItemsCount } from '../helpers/numberHelpers'
 import {
   useCartItems,
@@ -148,7 +147,6 @@ const Cart = () => {
                 </div>
                 <button
                   onClick={checkout}
-                  // onClick={e => redirectToCheckout(e, items)}
                   className="primary-btn checkout-btn text-24px font-space-mono bg-white margin-top-45px margin-bottom-10px"
                 >
                   Check out
@@ -168,28 +166,3 @@ const Cart = () => {
 }
 
 export default Cart
-const stripePromise = loadStripe(process.env.GATSBY_CHECKOUT_KEY)
-
-const redirectToCheckout = async (event, cart) => {
-  event.preventDefault()
-  const stripe = await stripePromise
-  const items =
-    cart &&
-    cart.map(item => {
-      return { sku: item.sku, quantity: item.quantity }
-    })
-
-  try {
-    await stripe.redirectToCheckout({
-      billingAddressCollection: 'required',
-      shippingAddressCollection: {
-        allowedCountries: ['US'],
-      },
-      items,
-      successUrl: `${process.env.GATSBY_URL}/checkout-success?session_id={CHECKOUT_SESSION_ID}`,
-      cancelUrl: process.env.GATSBY_URL,
-    })
-  } catch (error) {
-    console.error('Error:', error)
-  }
-}
