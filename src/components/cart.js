@@ -6,6 +6,7 @@ import {
   useAddItemToCart,
   useRemoveItemFromCart,
   useCheckout,
+  useIsAddingCartItem,
 } from 'store'
 
 const Cart = () => {
@@ -15,6 +16,7 @@ const Cart = () => {
   const checkout = useCheckout()
   const addItemToCart = useAddItemToCart()
   const removeFromCart = useRemoveItemFromCart()
+  const isAdding = useIsAddingCartItem()
   const { total } = useCartTotals()
 
   useEffect(() => {
@@ -39,6 +41,17 @@ const Cart = () => {
       setShowMenu(false)
     }
   }
+
+  const handleProductQuantity = (itemQuantity, variantId, productId) => {
+    if (!isAdding) {
+      if (itemQuantity === 1 || (!itemQuantity && !variantId)) {
+        removeFromCart(productId)
+      } else if (itemQuantity > 1) {
+        addItemToCart(variantId, -1)
+      }
+    }
+  }
+
   return (
     <div className="cart relative" ref={cartMenu}>
       <button
@@ -111,10 +124,13 @@ const Cart = () => {
                     </span>
                     <div className="d-flex align-items-center">
                       <button
+                        disabled={isAdding}
                         onClick={() =>
-                          product.quantity <= 1
-                            ? removeFromCart(product.id)
-                            : addItemToCart(product.variant.id, -1)
+                          handleProductQuantity(
+                            product.quantity,
+                            product.variant.id,
+                            product.id
+                          )
                         }
                         className="primary-btn padding-none d-flex align-items-center justify-content-center bg-white adjust-quantity-btn"
                       >
@@ -124,14 +140,18 @@ const Cart = () => {
                         {product.quantity}
                       </span>
                       <button
+                        disabled={isAdding}
                         onClick={() => addItemToCart(product.variant.id, 1)}
                         className="primary-btn padding-none d-flex align-items-center justify-content-center bg-white adjust-quantity-btn"
                       >
                         <span>+</span>
                       </button>
                       <button
+                        disabled={isAdding}
                         className="d-flex align-items-center item-remove-btn"
-                        onClick={() => removeFromCart(product.id)}
+                        onClick={() =>
+                          handleProductQuantity(null, null, product.id)
+                        }
                       >
                         <span>+</span>
                       </button>
