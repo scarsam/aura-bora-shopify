@@ -109,3 +109,50 @@
     max-height: 200px;
   }
 }
+
+.add-to-cart-animation {
+  clip-path: inset(0px 0px);
+  .slooth {
+    top: 35%;
+    left: 0;
+    transform: translateX(-100%);
+    z-index: 9;
+  }
+
+  &.animated {
+    animation: sloothMask 700ms ease-in-out forwards;
+    .slooth {
+      animation: slooth 700ms ease-in-out forwards;
+    }
+  }
+}
+
+@keyframes slooth {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-45px);
+  }
+  75% {
+    transform: translateX(-45px);
+  }
+}
+
+@keyframes sloothMask {
+  0% {
+    clip-path: inset(0px 0px);
+  }
+  48% {
+    clip-path: inset(0px 0px);
+  }
+  49% {
+    clip-path: inset(0px -45px);
+  }
+  74% {
+    clip-path: inset(0px -45px);
+  }
+  75% {
+    clip-path: inset(0px 0px);
+  }
+}
