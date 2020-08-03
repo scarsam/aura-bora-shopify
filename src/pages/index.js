@@ -4,6 +4,7 @@ import { ProductGrid } from 'components/ProductGrid'
 import Hero from 'components/hero'
 import SEO from 'components/seo'
 import ValueProps from 'components/value-props'
+import Banner from 'components/ShopBanner'
 
 const IndexPage = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+      <Banner />
       <Hero>
         <div className="text-center padding-top-10px padding-top-md-none margin-bottom-5px margin-bottom-md-55px">
           <p className="margin-none body-2">

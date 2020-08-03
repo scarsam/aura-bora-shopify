@@ -21,6 +21,12 @@
   }
 }
 
+.banner-link {
+  &:after {
+    background-color: $darkYellow;
+  }
+}
+
 footer .primary-link:after {
   top: 60%;
 }
