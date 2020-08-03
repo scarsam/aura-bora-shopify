@@ -42,9 +42,9 @@ const Carousel = ({ testamonials }) => {
         isIntrinsicHeight={true}
         currentSlide={5}
         isPlaying={true}
+        interval={10000}
       >
         <Slider className="padding-bottom-20px">
-          {console.log(testamonials)}
           {testamonials &&
             testamonials.map((item, index) => (
               <Slide key={index} index={index}>

@@ -20,18 +20,12 @@ const About = ({ data }) => {
     <Layout>
       <SEO title="About us" />
       <section className="about-us">
-        <div className="container padding-top-20px">
+        <div className="container padding-top-20px padding-bottom-10px padding-bottom-lg-30px">
           <div className="row">
             <div className="col-12">
               <div className="text-center hero">
                 <img className="margin-none" alt="About us" src={heroImage} />
               </div>
-            </div>
-            <div className="col-10 col-md-8 offset-md-2 about-intro-text c-black">
-              <strong className="font-barlow margin-none text-30px">
-                Every bit of Aura Bora
-                <span className="d-block">was inspired by the Earth.</span>
-              </strong>
             </div>
           </div>
         </div>
@@ -51,7 +45,7 @@ const About = ({ data }) => {
               </p>
               <p className="margin-bottom-none">
                 Instead of artificial, uninspired fruit flavors, Aura Bora uses
-                plant-based ingredients to herb up (like spice up HAH) your
+                plant-based ingredients to herb up (like spice up HAHA) your
                 sparkling water experience.
               </p>
             </div>
