@@ -13,13 +13,7 @@
   }
 }
 
-.about-intro-text {
-  @include media_min_break(sm) {
-    margin-top: -40px;
-  }
-}
 .selling-points {
-  margin-top: -50px;
   a {
     text-decoration: none;
   }
