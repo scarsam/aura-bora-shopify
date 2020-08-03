@@ -9,6 +9,7 @@ import tastesImage from 'images/about/tastes.svg'
 import happyImage from 'images/about/carousel/carousel-header.svg'
 import lizardImage from 'images/about/carousel/grazzlizard.svg'
 import Carousel from '../components/Carousel'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const About = ({ data }) => {
   const testamonials = data?.allMarkdownRemark?.edges.map(
@@ -85,8 +86,10 @@ const About = ({ data }) => {
                 <span className="no-wrap">full-bodied</span> with a soft floral
                 finish?
               </p>
-              <button className="primary-btn text-22px margin-top-60px">
-                Shop now
+              <button className="primary-btn margin-top-60px">
+                <AnchorLink className="text-22px c-black" to="/#shop" stripHash>
+                  Shop now
+                </AnchorLink>
               </button>
             </div>
           </div>
