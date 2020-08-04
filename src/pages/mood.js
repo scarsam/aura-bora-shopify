@@ -14,6 +14,7 @@ const Mood = () => {
       const {
         graphql: { user },
       } = await res.json()
+      console.log(user)
       const posts =
         user.edge_owner_to_timeline_media.edges.map(edge => {
           return {

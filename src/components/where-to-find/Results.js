@@ -76,7 +76,7 @@ const Results = ({
               </h2>
               {selectedCity && !mobile && (
                 <button
-                  className="text-20px back-button padding-none d-flex align-items-center"
+                  className="body-4 back-button padding-none d-flex align-items-center"
                   onClick={backButton}
                 >
                   <img

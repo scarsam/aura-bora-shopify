@@ -22,7 +22,6 @@ const Product = ({
   const [buttonText, setButtonText] = useState('Add to bouquet')
 
   const addToCart = async id => {
-    console.log(buttonText)
     setButtonText('Added')
     await addItemToCart(id, 1)
     setButtonText('Add to bouquet')
@@ -39,7 +38,7 @@ const Product = ({
                   className="product-info-icon absolute z-index-2 primary-btn bg-white d-flex align-items-center justify-content-center padding-none"
                   onClick={() => setShowInfoPane(id)}
                 >
-                  <strong className="text-24px padding-bottom-3px line-height-1">
+                  <strong className="body-2 padding-bottom-3px line-height-1">
                     i
                   </strong>
                 </button>

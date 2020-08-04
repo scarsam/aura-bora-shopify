@@ -49,7 +49,7 @@ const ProductInfo = ({
         </div>
       </div>
     ) : (
-      <div className="text-22px line-height-40px">
+      <div className="body-3">
         {description &&
           description.split(',').map((item, index) => (
             <p className="margin-none" key={index}>
