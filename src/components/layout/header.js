@@ -48,7 +48,7 @@ const Header = () => {
                 role="presentation"
               >
                 <AnchorLink
-                  className="primary-link text-36px shop-link"
+                  className="primary-link h1 shop-link"
                   to="/#shop"
                   title="Shop"
                   stripHash
@@ -61,7 +61,7 @@ const Header = () => {
                 role="presentation"
               >
                 <AnchorLink
-                  className="primary-link text-36px"
+                  className="primary-link h1"
                   to="/about-us"
                   title="About us"
                 />
@@ -73,7 +73,7 @@ const Header = () => {
                 role="presentation"
               >
                 <AnchorLink
-                  className="primary-link text-36px"
+                  className="primary-link h1"
                   to="/where-to-find#menu-btn"
                   title="Where to find"
                   stripHash
@@ -86,7 +86,7 @@ const Header = () => {
                 role="presentation"
               >
                 <AnchorLink
-                  className="primary-link text-36px shop-link"
+                  className="primary-link h1 shop-link"
                   to="/mood"
                   title="Mood"
                 />
@@ -98,7 +98,7 @@ const Header = () => {
                 role="presentation"
               >
                 <AnchorLink
-                  className="primary-link text-36px shop-link"
+                  className="primary-link h1 shop-link"
                   to="/contact"
                   title="Say hey"
                 />
