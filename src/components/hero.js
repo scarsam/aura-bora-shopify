@@ -4,7 +4,7 @@ import auraBoraLogo from 'images/hero/aura-bora.svg'
 const Hero = ({ children }) => {
   return (
     <>
-      <section className="bg-lavender top-section hero-background">
+      <section className="bg-lavender top-section hero-background relative">
         <div className="animations-container absolute">
           <div className="animations absolute">
             <div className="eye relative">
