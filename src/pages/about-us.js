@@ -90,7 +90,7 @@ const About = ({ data }) => {
         </div>
       </section>
 
-      <section className="happy-thoughts bg-variety_pack-i">
+      <section className="happy-thoughts bg-lightPink">
         <div className="container padding-top-40px padding-top-lg-40px padding-bottom-none">
           <div className="row padding-top-md-60px">
             <div className="col-8 offset-1 col-md-12 offset-md-0">
