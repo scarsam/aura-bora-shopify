@@ -50,14 +50,14 @@ const Product = ({
             </div>
 
             <div className="text-center bg-white product-text c-black">
-              <h2 className="m-0 padding-top-25px padding-bottom-20px padding-top-lg-35px padding-bottom-lg-20px text-26px line-height-1">
+              <h2 className="m-0 padding-top-25px padding-top-lg-35px padding-bottom-5px padding-bottom-lg-10px h3">
                 {title}
               </h2>
-              <p className="m-0 padding-bottom-20px padding-bottom-lg-30px text-22px font-barlow line-height-1">
+              <p className="m-0 padding-bottom-15px padding-bottom-lg-25px body-3">
                 12x for {formatPrice(price)}
               </p>
               <button
-                className="primary-btn bg-white padding-top-15px padding-bottom-15px padding-left-lg-30px padding-right-lg-30px margin-bottom-40px text-22px add-product-btn"
+                className="cta primary-btn bg-white padding-top-15px padding-bottom-15px padding-left-lg-30px padding-right-lg-30px margin-bottom-30px margin-bottom-lg-40px add-product-btn"
                 onClick={() => addToCart(id)}
               >
                 {buttonText}

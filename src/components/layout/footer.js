@@ -8,7 +8,7 @@ const Footer = () => {
       <section>
         <div className="container padding-top-40px padding-bottom-35px">
           <div className="row">
-            <div className="col-sm-6 col-md-4 d-flex flex-column align-items-start text-24px">
+            <div className="col-sm-6 col-md-4 d-flex flex-column align-items-start body-2">
               <AnchorLink
                 className="primary-link margin-bottom-10px"
                 to="/#shop"
@@ -44,10 +44,10 @@ const Footer = () => {
             </div>
             <div className="col-md-8 col-lg-7 offset-lg-1 padding-top-30px padding-top-md-none d-flex flex-column flex-sm-row">
               <div className="content flex-fill">
-                <p className="margin-bottom-none padding-bottom-15px d-block text-22px font-barlow padding-top-5px">
+                <p className="margin-bottom-none padding-bottom-lg-15px d-block body-4 font-barlow padding-top-5px">
                   <strong>Let's be </strong>rose<strong>buds</strong>
                 </p>
-                <p className="margin-bottom-25px text-18px">
+                <p className="margin-bottom-25px body-5">
                   We’ll send you
                   <span className="d-block">discounts or pictures</span>
                   of three-toed sloths.

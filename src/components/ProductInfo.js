@@ -21,26 +21,31 @@ const ProductInfo = ({
       onKeyDown={() => setShowInfoPane(false)}
     />
 
-    <h2 className="margin-bottom-30px margin-bottom-lg-50px text-30px line-height-34px font-barlow">
+    <h2 className="margin-bottom-30px margin-bottom-lg-50px h2 font-barlow">
       {title &&
         title.split(' ').map((word, index) => <div key={index}>{word}</div>)}
     </h2>
     {title && title !== 'Variety pack' ? (
-      <div className="text-22px line-height-32px padding-right-80px">
-        <p className="margin-none">
+      <div className="padding-right-80px">
+        <p className="margin-none padding-bottom-lg-20px body-4">
           <strong>Ingredients</strong>
         </p>
         {description &&
           description.split(',').map((item, index) => (
-            <p className="margin-none" key={index}>
+            <p
+              className="margin-none padding-bottom-lg-10px body-3 font-space-mono"
+              key={index}
+            >
               {item}
             </p>
           ))}
 
-        <div className="padding-top-30px text-22px line-height-32px">
-          <p className="margin-none">0 calories</p>
-          <p className="margin-none">0 sugar</p>
-          <p className="margin-none">0 sodium</p>
+        <div className="padding-top-30px font-space-mono">
+          <p className="margin-none body-3 padding-bottom-lg-10px">
+            0 calories
+          </p>
+          <p className="margin-none body-3 padding-bottom-lg-10px">0 sugar</p>
+          <p className="margin-none body-3">0 sodium</p>
         </div>
       </div>
     ) : (

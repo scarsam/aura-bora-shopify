@@ -107,23 +107,26 @@ const Cart = () => {
               tabIndex={0}
               onClick={() => setShowMenu(false)}
               onKeyDown={() => setShowMenu(false)}
-              className="close-icon d-block margin-bottom-40px padding-top-60px"
+              className="close-icon d-block margin-bottom-20px margin-bottom-lg-40px padding-top-60px"
             />
             {items?.length > 0 && (
-              <h2 className="text-28px line-height-1 margin-bottom-20px font-barlow">
+              <h2 className="h2 margin-bottom-lg-10px font-barlow">
                 Your order
               </h2>
             )}
             {items &&
               items.map((product, index) => (
-                <div key={index} className="padding-top-40px text-20px">
-                  <strong className="margin-none d-block padding-bottom-15px font-space-mono">
+                <div
+                  key={index}
+                  className="padding-top-20px padding-top-lg-40px body-4"
+                >
+                  <strong className="margin-none d-block padding-bottom-lg-15px font-space-mono">
                     {product.title}
                   </strong>
                   <div className="d-flex justify-content-between align-items-center cart-item-detail padding-bottom-30px">
-                    <span className="text-18px">
+                    <p className="body-5 margin-bottom-none font-space-mono">
                       12X for {formatPrice(product.variant.price)}
-                    </span>
+                    </p>
                     <div className="d-flex align-items-center">
                       <button
                         disabled={isAdding}
@@ -163,19 +166,19 @@ const Cart = () => {
               ))}
             {items && items.length ? (
               <>
-                <div className="d-flex justify-content-between padding-top-45px text-20px">
+                <div className="d-flex justify-content-between padding-top-20px padding-top-lg-45px body-4">
                   <p className="margin-none">Subtotal</p>
                   <p className="margin-none font-medium">{total}</p>
                 </div>
                 <button
                   onClick={checkout}
-                  className="primary-btn checkout-btn text-24px font-space-mono bg-white margin-top-45px margin-bottom-10px"
+                  className="primary-btn checkout-btn cta font-space-mono bg-white margin-top-45px margin-bottom-10px"
                 >
                   Check out
                 </button>
               </>
             ) : (
-              <p className="text-18px line-height-28 padding-top-25px font-space-mono">
+              <p className="body-5 padding-top-25px font-space-mono">
                 You have nothing in your{' '}
                 <span className="d-md-block">bouquet yet. Keep picking!</span>
               </p>

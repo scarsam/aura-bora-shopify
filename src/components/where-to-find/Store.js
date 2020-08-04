@@ -3,8 +3,8 @@ import React from 'react'
 const Store = ({ name, address }) => {
   return (
     <>
-      <strong className="text-20px margin-bottom-5px">{name}</strong>
-      <address className="font-style-normal text-20px">{address}</address>
+      <strong className="body-4 margin-bottom-5px">{name}</strong>
+      <address className="font-style-normal body-4">{address}</address>
     </>
   )
 }

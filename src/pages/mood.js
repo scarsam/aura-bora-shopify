@@ -51,10 +51,10 @@ const Mood = () => {
                   src={heroImage}
                 />
               </div>
-              <div className="d-flex justify-content-center align-items-center margin-bottom-10px margin-bottom-md-30px">
-                <img className="padding-right-25px" src={instagramLogo} />
+              <div className="d-flex justify-content-center align-items-center margin-bottom-30px margin-bottom-lg-50px margin-top-20px margin-top-lg-none">
+                <img className="instagram" src={instagramLogo} />
                 <a
-                  className="d-inline-block primary-link text-22px margin-bottom-15px"
+                  className="d-inline-block primary-link body-3 margin-bottom-none"
                   href="https://www.instagram.com/drinkaurabora/"
                   target="_blank"
                   rel="noopener noreferrer"

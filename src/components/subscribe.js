@@ -41,7 +41,7 @@ const Subscribe = () => {
             onChange={handleEmailChange}
             required
           />
-          <button className="primary-btn text-22px" type="submit">
+          <button className="primary-btn cta" type="submit">
             Sign up
           </button>
         </div>
