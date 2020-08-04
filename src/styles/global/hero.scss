@@ -6,6 +6,15 @@
   }
 }
 
+.banner-link:after {
+  top: 60%;
+  @include media_max_break(lg) {
+    top: 58%;
+    left: -5px;
+    width: calc(100% + 10px);
+  }
+}
+
 .hero-background {
   background-image: url('../images/hero/hero-background.svg');
   background-size: 2400px;
