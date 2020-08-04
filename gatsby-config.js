@@ -13,19 +13,9 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-173914173-1',
-        // this option places the tracking script into the head of the DOM
-        head: true,
-        // other options
-        allowLinker: true,
-      },
-    },
-    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '283656946065014',
+        pixelId: '2420510858247428',
       },
     },
     `gatsby-plugin-netlify-cms`,
