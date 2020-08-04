@@ -16,6 +16,68 @@ const typography = new Typography({
   headerFontFamily: ['Space Mono', 'monospace'],
   bodyFontFamily: ['Space Mono', 'monospace'],
   overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    '.h1': {
+      ...adjustFontSizeTo('36px'),
+    },
+    '.h2': {
+      ...adjustFontSizeTo('30px'),
+    },
+    '.h3': {
+      ...adjustFontSizeTo('26px'),
+    },
+    '.h4': {
+      ...adjustFontSizeTo('20px'),
+    },
+    '.body-1': {
+      ...adjustFontSizeTo('26px'),
+    },
+    '.body-2': {
+      ...adjustFontSizeTo('24px'),
+    },
+    '.body-3': {
+      ...adjustFontSizeTo('22px'),
+    },
+    '.body-4': {
+      ...adjustFontSizeTo('20px'),
+    },
+    '.body-5': {
+      ...adjustFontSizeTo('18px'),
+    },
+    '.cta': {
+      ...adjustFontSizeTo('22px'),
+    },
+    '@media only screen and (max-width:992px)': {
+      '.h1': {
+        ...adjustFontSizeTo('24px'),
+      },
+      '.h2': {
+        ...adjustFontSizeTo('20px'),
+      },
+      '.h3': {
+        ...adjustFontSizeTo('17px'),
+      },
+      '.h4': {
+        ...adjustFontSizeTo('14px'),
+      },
+      '.body-1': {
+        ...adjustFontSizeTo('17px'),
+      },
+      '.body-2': {
+        ...adjustFontSizeTo('16px'),
+      },
+      '.body-3': {
+        ...adjustFontSizeTo('14px'),
+      },
+      '.body-4': {
+        ...adjustFontSizeTo('13px'),
+      },
+      '.body-5': {
+        ...adjustFontSizeTo('12px'),
+      },
+      '.cta': {
+        ...adjustFontSizeTo('14px'),
+      },
+    },
     '.text-18px': {
       ...adjustFontSizeTo('18px'),
     },

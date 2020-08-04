@@ -83,7 +83,7 @@ const WhereToFind = ({ data }) => {
               </div>
             </div>
             <div className="col-10 offset-1 col-md-8 offset-md-2">
-              <p className="text-24px">
+              <p className="body-2">
                 Looking for Aura Bora in the wild?{' '}
                 <span className="d-md-none">Search for your state below.</span>
                 <span className="d-none d-md-block">

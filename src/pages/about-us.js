@@ -40,9 +40,9 @@ const About = ({ data }) => {
                 src={varietiesImage}
                 alt="Two pink bushes"
               />
-              <p className="text-30px c-black font-barlow">
-                <strong>One-of-a-kind varieties</strong>
-              </p>
+              <h2 className="h2 c-black margin-bottom-lg-15px font-barlow">
+                One-of-a-kind varieties
+              </h2>
               <p className="margin-bottom-none">
                 Instead of artificial, uninspired fruit flavors, Aura Bora uses
                 plant-based ingredients to herb up (like spice up HAHA) your
@@ -55,9 +55,9 @@ const About = ({ data }) => {
                 src={herbsImage}
                 alt="Two green leefs"
               />
-              <p className="text-30px c-black font-barlow">
-                <strong>Real herbs</strong>
-              </p>
+              <h2 className="h2 c-black margin-bottom-lg-15px font-barlow">
+                Real herbs
+              </h2>
               <p className="margin-bottom-none">
                 It turns out, when you combine real herbal extracts and
                 sparkles, you get vivid flavors, floral aromas, and good
@@ -70,9 +70,9 @@ const About = ({ data }) => {
                 src={tastesImage}
                 alt="Rainbow above clouds"
               />
-              <p className="text-30px c-black font-barlow">
-                <strong>Heavenly tastes</strong>
-              </p>
+              <h2 className="h2 c-black margin-bottom-lg-15px font-barlow">
+                Heavenly tastes
+              </h2>
               <p className="margin-bottom-none">
                 Aura Bora’s flavor profile is unlike any other{' '}
                 <span className="no-wrap">— it’s bold, </span>
@@ -80,8 +80,8 @@ const About = ({ data }) => {
                 <span className="no-wrap">full-bodied</span> with a soft floral
                 finish?
               </p>
-              <button className="primary-btn margin-top-60px">
-                <AnchorLink className="text-22px c-black" to="/#shop" stripHash>
+              <button className="primary-btn cta margin-top-60px">
+                <AnchorLink className="c-black" to="/#shop" stripHash>
                   Shop now
                 </AnchorLink>
               </button>

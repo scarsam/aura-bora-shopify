@@ -30,7 +30,7 @@ const Contact = () => {
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
                 <p>
-                  <label className="text-20px">
+                  <label className="body-4">
                     Your name
                     <input
                       className="d-block margin-top-10px"
@@ -41,7 +41,7 @@ const Contact = () => {
                   </label>
                 </p>
                 <p>
-                  <label className="text-20px">
+                  <label className="body-4">
                     Your email
                     <input
                       className="d-block margin-top-10px"
@@ -52,7 +52,7 @@ const Contact = () => {
                   </label>
                 </p>
                 <p>
-                  <label className="text-20px">
+                  <label className="body-4">
                     Message
                     <textarea
                       className="d-block margin-top-10px"
@@ -63,7 +63,7 @@ const Contact = () => {
                   </label>
                 </p>
                 <p>
-                  <button className="primary-btn text-22px" type="submit">
+                  <button className="primary-btn cta" type="submit">
                     Send
                   </button>
                 </p>

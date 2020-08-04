@@ -49,9 +49,9 @@ const Carousel = ({ testamonials }) => {
             testamonials.map((item, index) => (
               <Slide key={index} index={index}>
                 <div className="qoute-card bg-white d-flex align-items-center relative padding-bottom-20px">
-                  <div className="text-16px c-black">
+                  <div className="body-3 c-black">
                     <ReactMarkdown source={item.text} />
-                    <p className="margin-none text-14px font-barlow">
+                    <p className="margin-none body-4 font-barlow">
                       <strong>{item.author}</strong>
                     </p>
                   </div>

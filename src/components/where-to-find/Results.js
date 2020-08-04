@@ -21,7 +21,7 @@ const Results = ({
     return city?.stores.map(({ name, address }, index) => (
       <li
         className={`col-12 col-md-6 ${
-          city?.stores.length - 1 === index ? '' : 'padding-bottom-20px'
+          city?.stores.length - 1 === index ? '' : 'padding-bottom-lg-20px'
         }`}
         key={name}
       >
@@ -60,7 +60,7 @@ const Results = ({
           >
             {selectedCity && mobile && (
               <button
-                className="text-20px back-button padding-none d-flex align-items-center margin-bottom-15px"
+                className="body-4 back-button padding-none d-flex align-items-center margin-bottom-15px"
                 onClick={backButton}
               >
                 <img
@@ -71,12 +71,12 @@ const Results = ({
               </button>
             )}
             <section className="padding-none d-flex justify-content-md-center align-items-center text-md-center results-title z-index-2 padding-left-20px padding-right-20px padding-left-md-60px padding-right-md-50px">
-              <h2 className="margin-bottom-none text-30px absolute font-barlow">
+              <h2 className="margin-bottom-none h2 absolute font-barlow">
                 {selectedCity ? selectedCity : state}
               </h2>
               {selectedCity && !mobile && (
                 <button
-                  className="text-20px back-button padding-none d-flex align-items-center"
+                  className="body-4 back-button padding-none d-flex align-items-center"
                   onClick={backButton}
                 >
                   <img

@@ -4,7 +4,6 @@ import { ProductGrid } from 'components/ProductGrid'
 import Hero from 'components/hero'
 import SEO from 'components/seo'
 import ValueProps from 'components/value-props'
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const IndexPage = () => {
   useEffect(() => {
@@ -26,7 +25,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Hero>
         <div className="text-center padding-top-10px padding-top-md-none margin-bottom-5px margin-bottom-md-55px">
-          <p className="margin-none text-24px ">
+          <p className="margin-none body-2">
             Aura Bora is a sparkling water{' '}
             <span className="d-lg-block">
               made from herbs, fruits, and flowers for{' '}
