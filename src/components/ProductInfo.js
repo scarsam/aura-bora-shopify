@@ -52,7 +52,7 @@ const ProductInfo = ({
       <div className="body-3">
         {description &&
           description.split(',').map((item, index) => (
-            <p className="margin-none" key={index}>
+            <p className="margin-none padding-bottom-lg-10px" key={index}>
               {item}
             </p>
           ))}

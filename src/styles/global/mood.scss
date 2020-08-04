@@ -2,6 +2,13 @@
   .mood-url {
     height: 100%;
   }
+  .instagram-link:after {
+    @include media_max_break(lg) {
+      top: 58%;
+      left: -5px;
+      width: calc(100% + 10px);
+    }
+  }
   .instagram {
     max-width: 30px;
     margin-right: 25px;

@@ -55,7 +55,7 @@ const Mood = () => {
               <div className="d-flex justify-content-center align-items-center margin-bottom-30px margin-bottom-lg-50px margin-top-20px margin-top-lg-none">
                 <img className="instagram" src={instagramLogo} />
                 <a
-                  className="d-inline-block primary-link body-3 margin-bottom-none"
+                  className="d-inline-block primary-link instagram-link body-3 margin-bottom-none margin-top-5px"
                   href="https://www.instagram.com/drinkaurabora/"
                   target="_blank"
                   rel="noopener noreferrer"
