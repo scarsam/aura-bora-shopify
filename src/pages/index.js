@@ -25,6 +25,9 @@ const IndexPage = () => {
     <>
       <Banner />
       <Layout>
+        <i class="font-space-mono absolute italic-font-loader">
+          <b>Loading italic font..</b>
+        </i>
         <SEO title="Home" />
         <Hero>
           <div className="text-center padding-top-10px padding-top-md-none margin-bottom-5px margin-bottom-md-55px">
