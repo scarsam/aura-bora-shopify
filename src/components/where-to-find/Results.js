@@ -18,7 +18,10 @@ const Results = ({
 
   const renderSelectedCity = () => {
     const city = cities.find(({ city }) => city === selectedCity)
-    return city?.stores.map(({ name, address }, index) => (
+    const sortedCities = city?.stores.sort((a, b) =>
+      a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+    )
+    return sortedCities?.map(({ name, address }, index) => (
       <li
         className={`col-12 col-md-6 ${
           city?.stores.length - 1 === index ? '' : 'padding-bottom-lg-20px'

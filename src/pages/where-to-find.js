@@ -128,7 +128,7 @@ export default WhereToFind
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { order: [ASC], fields: [frontmatter___city] }) {
       edges {
         node {
           frontmatter {
