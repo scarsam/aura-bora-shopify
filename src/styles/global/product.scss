@@ -52,13 +52,16 @@
   width: 38px;
 }
 .out-of-stock {
-  min-height: 532px;
+  min-height: 500px;
   height: 100%;
   h2 {
-    padding-top: 90px;
+    padding-top: 40px;
+  }
+  @include media_min_break(lg) {
+    padding-top: 50px;
   }
   div {
-    padding-bottom: 90px;
+    padding-bottom: 50px;
   }
 }
 

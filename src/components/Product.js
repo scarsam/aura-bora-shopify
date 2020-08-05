@@ -71,7 +71,7 @@ const Product = ({
             />
           </>
         ) : (
-          <ProductOutOfStock colorRef={colorRef} title={title} />
+          <ProductOutOfStock productName={colorRef} title={title} />
         )}
       </div>
     </div>
