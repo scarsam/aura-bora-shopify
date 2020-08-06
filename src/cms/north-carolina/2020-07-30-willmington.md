@@ -1,5 +1,5 @@
 ---
-city: "Willmington "
+city: "Wilmington "
 state: north carolina
 stores:
   - name: Lovey's Natural Foods & Cafe
