@@ -3,6 +3,7 @@ import SEO from 'components/seo'
 import Layout from 'components/layout'
 import heroImage from 'images/mood/mood-header.svg'
 import instagramLogo from 'images/mood/mood-instagram.svg'
+import LoadingAnimation from 'images/loading-animation.inline.svg'
 
 const Mood = () => {
   const [images, setImages] = useState([])
@@ -14,7 +15,6 @@ const Mood = () => {
       const {
         graphql: { user },
       } = await res.json()
-      console.log(user)
       const posts =
         user.edge_owner_to_timeline_media.edges.map(edge => {
           return {
@@ -82,7 +82,7 @@ const Mood = () => {
               ))
             ) : (
               <div className="col-12 text-center padding-top-50px padding-bottom-50px">
-                <h2>Loading..</h2>
+                <LoadingAnimation className="loading-animation margin-top-20px" />
               </div>
             )}
           </div>

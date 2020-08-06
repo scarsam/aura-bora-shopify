@@ -18,6 +18,14 @@ module.exports = {
         pixelId: '2420510858247428',
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-react-helmet`,
