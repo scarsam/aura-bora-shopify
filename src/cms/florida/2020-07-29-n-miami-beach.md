@@ -1,5 +1,5 @@
 ---
-city: N. Miami Beach
+city: North Miami Beach
 state: florida
 stores:
   - name: Fruteria La Hacienda
