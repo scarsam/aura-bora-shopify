@@ -25,7 +25,7 @@ const IndexPage = () => {
     <>
       <Banner />
       <Layout>
-        <i class="font-space-mono absolute italic-font-loader">
+        <i className="font-space-mono absolute italic-font-loader">
           <b>Loading italic font..</b>
         </i>
         <SEO title="Home" />

@@ -67,6 +67,7 @@ const Results = ({
                 onClick={backButton}
               >
                 <img
+                  alt="Back button link"
                   className="margin-none padding-right-10px"
                   src={BackButton}
                 />
@@ -83,6 +84,7 @@ const Results = ({
                   onClick={backButton}
                 >
                   <img
+                    alt="Back button link"
                     className="margin-none padding-right-10px"
                     src={BackButton}
                   />

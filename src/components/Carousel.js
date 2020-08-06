@@ -58,7 +58,7 @@ const Carousel = ({ testamonials }) => {
                   <img
                     className="margin-none d-none d-md-block"
                     src={CarouselImage(index)}
-                    alt="Quote image"
+                    alt="Quote illustration"
                   />
                 </div>
               </Slide>
