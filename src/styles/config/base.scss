@@ -21,6 +21,12 @@ ul {
   margin-left: 0;
 }
 
+.italic-font-loader {
+  visibility: hidden;
+  top: -1000px;
+  left: -1000px;
+}
+
 footer {
   position: relative;
   .container:before {
