@@ -49,7 +49,7 @@ const Product = ({
             </div>
 
             <div className="text-center bg-white product-text c-black">
-              <h2 className="m-0 padding-top-25px padding-top-lg-35px padding-bottom-5px padding-bottom-lg-10px h3">
+              <h2 className="m-0 padding-top-25px padding-top-lg-35px padding-bottom-5px padding-bottom-lg-10px h3 font-barlow">
                 {title}
               </h2>
               <p className="m-0 padding-bottom-15px padding-bottom-lg-25px body-3">
