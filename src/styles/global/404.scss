@@ -1,0 +1,26 @@
+.not-found {
+  a {
+    text-decoration: none;
+  }
+  button {
+    padding: 12px 16px;
+    border-radius: 50px;
+  }
+  @include media_min_break(lg) {
+    button {
+      padding: 23px 26px;
+      border-radius: 50px;
+    }
+    .xl-cloud {
+      margin-left: -60px;
+    }
+  }
+  .tiny-cloud {
+    margin-top: -80px;
+  }
+  @include media_max_break(lg) {
+    .small-cloud {
+      margin-left: -30px;
+    }
+  }
+}
