@@ -3,6 +3,7 @@ import SEO from 'components/seo'
 import Layout from 'components/layout'
 import heroImage from 'images/mood/mood-header.svg'
 import instagramLogo from 'images/mood/mood-instagram.svg'
+import LoadingAnimation from 'images/loading-animation.inline.svg'
 
 const Mood = () => {
   const [images, setImages] = useState([])
@@ -14,7 +15,6 @@ const Mood = () => {
       const {
         graphql: { user },
       } = await res.json()
-      console.log(user)
       const posts =
         user.edge_owner_to_timeline_media.edges.map(edge => {
           return {
@@ -53,7 +53,11 @@ const Mood = () => {
                 />
               </div>
               <div className="d-flex justify-content-center align-items-center margin-bottom-30px margin-bottom-lg-50px margin-top-20px margin-top-lg-none">
-                <img className="instagram" src={instagramLogo} />
+                <img
+                  alt="@drinkaurabora"
+                  className="instagram"
+                  src={instagramLogo}
+                />
                 <a
                   className="d-inline-block primary-link instagram-link body-3 margin-bottom-none margin-top-5px"
                   href="https://www.instagram.com/drinkaurabora/"
@@ -74,6 +78,7 @@ const Mood = () => {
                     rel="noopener noreferrer"
                   >
                     <img
+                      alt="Aurabora mood page"
                       className="mood-image margin-bottom-none"
                       src={image.imageUrl}
                     />
@@ -82,7 +87,7 @@ const Mood = () => {
               ))
             ) : (
               <div className="col-12 text-center padding-top-50px padding-bottom-50px">
-                <h2>Loading..</h2>
+                <LoadingAnimation className="loading-animation margin-top-20px" />
               </div>
             )}
           </div>

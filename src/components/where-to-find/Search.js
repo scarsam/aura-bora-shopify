@@ -17,6 +17,12 @@ const Search = ({ handleState }) => {
     setSearchQuery('')
   }
 
+  const handleKeyDown = e => {
+    if (e.keyCode === 27) {
+      setSearchQuery('')
+    }
+  }
+
   return (
     <>
       <input
@@ -24,6 +30,7 @@ const Search = ({ handleState }) => {
         type="text"
         value={searchQuery}
         onChange={e => setSearchQuery(e.target.value.toLowerCase())}
+        onKeyDown={handleKeyDown}
         placeholder="Enter your state"
       />
       {searchQuery.length > 1 && (

@@ -31,4 +31,24 @@
       max-height: 465px;
     }
   }
+
+  .lash {
+    animation: 0.6s linear both fade-in infinite;
+  }
+
+  @for $i from 1 through 12 {
+    .lash-#{$i} {
+      animation-delay: $i * (0.06s);
+    }
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
 }
