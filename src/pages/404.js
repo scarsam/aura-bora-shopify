@@ -27,7 +27,7 @@ const NotFoundPage = () => (
           </div>
         </div>
         <div className="row">
-          <div className="col-12 col-md-5 offset-1 offset-md-2">
+          <div className="col-11 col-md-5 offset-1 offset-md-2">
             <p className="body-1 font-space-mono">This place is not real..</p>
             <button className="primary-btn body-3">
               <AnchorLink className="c-black" to="/" stripHash>
