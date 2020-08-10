@@ -42,7 +42,7 @@ const Header = () => {
             />
             <ul className="menu margin-none padding-none padding-left-15px">
               <li
-                className="margin-top-30px margin-bottom-30px"
+                className="margin-top-30px margin-bottom-20px margin-bottom-lg-30px"
                 onClick={handleLinkClick}
                 onKeyDown={handleKeyDown}
                 role="presentation"
@@ -55,7 +55,7 @@ const Header = () => {
                 />
               </li>
               <li
-                className="margin-top-20px margin-bottom-30px"
+                className="margin-top-20px margin-bottom-20px margin-bottom-lg-30px"
                 onClick={handleLinkClick}
                 onKeyDown={handleKeyDown}
                 role="presentation"
@@ -67,7 +67,7 @@ const Header = () => {
                 />
               </li>
               <li
-                className="margin-top-20px margin-bottom-30px"
+                className="margin-top-20px margin-bottom-20px margin-bottom-lg-30px"
                 onClick={handleLinkClick}
                 onKeyDown={handleKeyDown}
                 role="presentation"
@@ -80,7 +80,7 @@ const Header = () => {
                 />
               </li>
               <li
-                className="margin-top-20px margin-bottom-30px"
+                className="margin-top-20px margin-bottom-20px margin-bottom-lg-30px"
                 onClick={handleLinkClick}
                 onKeyDown={handleKeyDown}
                 role="presentation"
@@ -92,7 +92,7 @@ const Header = () => {
                 />
               </li>
               <li
-                className="margin-top-20px padding-bottom-60px padding-bottom-md-none"
+                className="margin-top-20px padding-bottom-20px padding-bottom-md-none"
                 onClick={handleLinkClick}
                 onKeyDown={handleKeyDown}
                 role="presentation"

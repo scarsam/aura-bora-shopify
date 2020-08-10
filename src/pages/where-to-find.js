@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { graphql } from 'gatsby'
 import Layout from 'components/layout'
+import Banner from 'components/ShopBanner'
 import SEO from 'components/seo'
 import Results from 'components/where-to-find/Results'
 import Search from 'components/where-to-find/Search'
@@ -72,55 +73,60 @@ const WhereToFind = ({ data }) => {
   }, [showResults])
 
   return (
-    <Layout>
-      <SEO title="Where to find" />
-      <section className="where-to-find">
-        <div className="container padding-top-20px">
-          <div className="row">
-            <div className="col-12">
-              <div className="text-center padding-bottom-lg-55px hero">
-                <img alt="Where to find us" src={heroImage} />
+    <>
+      <Banner />
+      <Layout>
+        <SEO title="Where to find" />
+        <section className="where-to-find">
+          <div className="container padding-top-20px">
+            <div className="row">
+              <div className="col-12">
+                <div className="text-center padding-bottom-lg-55px hero">
+                  <img alt="Where to find us" src={heroImage} />
+                </div>
+              </div>
+              <div className="col-10 offset-1 col-md-8 offset-md-2">
+                <p className="body-2">
+                  Looking for Aura Bora in the wild?{' '}
+                  <span className="d-md-none">
+                    Search for your state below.
+                  </span>
+                  <span className="d-none d-md-block">
+                    Click on your state below.
+                  </span>
+                </p>
               </div>
             </div>
-            <div className="col-10 offset-1 col-md-8 offset-md-2">
-              <p className="body-2">
-                Looking for Aura Bora in the wild?{' '}
-                <span className="d-md-none">Search for your state below.</span>
-                <span className="d-none d-md-block">
-                  Click on your state below.
-                </span>
-              </p>
+            <div className="row d-md-none mobile-search">
+              <div className="col-12">
+                <Search handleState={setState} />
+                {state && (
+                  <Results mobile state={state} cities={filterState(state)} />
+                )}
+              </div>
+            </div>
+            <div className="row padding-bottom-50px d-none d-md-flex">
+              <div className="col-12">
+                <USMap
+                  className="width-100 height-auto"
+                  onClick={handleStateSelection}
+                />
+              </div>
             </div>
           </div>
-          <div className="row d-md-none mobile-search">
-            <div className="col-12">
-              <Search handleState={setState} />
-              {state && (
-                <Results mobile state={state} cities={filterState(state)} />
-              )}
-            </div>
-          </div>
-          <div className="row padding-bottom-50px d-none d-md-flex">
-            <div className="col-12">
-              <USMap
-                className="width-100 height-auto"
-                onClick={handleStateSelection}
-              />
-            </div>
-          </div>
+        </section>
+        <div className="d-none d-md-block">
+          {showResults && (
+            <Results
+              state={state}
+              cities={filterState(state)}
+              handleCloseResults={closeResults}
+              innerResultsRef={innerResults}
+            />
+          )}
         </div>
-      </section>
-      <div className="d-none d-md-block">
-        {showResults && (
-          <Results
-            state={state}
-            cities={filterState(state)}
-            handleCloseResults={closeResults}
-            innerResultsRef={innerResults}
-          />
-        )}
-      </div>
-    </Layout>
+      </Layout>
+    </>
   )
 }
 
