@@ -1,5 +1,5 @@
 ---
-city: Jefferson
+city: Jeffersonville
 state: indiana
 stores:
   - name: Meijer
