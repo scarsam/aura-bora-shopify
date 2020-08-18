@@ -6,4 +6,6 @@ stores:
     address: 2965 Oakland Drive
   - name: Meijer
     address: 5800 Gull Road
+  - name: Meijer
+    address: 6660 West Main Street
 ---
