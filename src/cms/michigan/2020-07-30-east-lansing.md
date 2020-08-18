@@ -6,4 +6,6 @@ stores:
     address: "2655 East Grand River Avenue "
   - name: Meijer
     address: 1350 West Lake Lansing Road
+  - name: Meijer
+    address: 7157 East Saginaw Street
 ---
