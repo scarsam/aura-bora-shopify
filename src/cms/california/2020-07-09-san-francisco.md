@@ -26,4 +26,6 @@ stores:
     address: 98 Howard Street
   - name: The Good Life Grocery
     address: 1524 20th Street
+  - name: Rainbow Grocery
+    address: 1745 Folsom Street
 ---
