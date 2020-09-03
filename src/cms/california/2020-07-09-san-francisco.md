@@ -24,4 +24,6 @@ stores:
     address: 3216 Folsom Street
   - name: Rincon Market
     address: 98 Howard Street
+  - name: The Good Life Grocery
+    address: 1524 20th Street
 ---
