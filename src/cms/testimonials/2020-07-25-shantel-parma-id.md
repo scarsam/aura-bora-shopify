@@ -1,5 +1,5 @@
 ---
-text: I’m not sure how many Aura Boras will make it to my shelves as I may hoard
-  them all for myself.
+text: I finally found a sparkling water to obsess over. The taste! The flowery
+  aroma! I'm in love.
 author: Shantel, Parma ID
 ---
