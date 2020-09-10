@@ -1,5 +1,5 @@
 ---
-text: I normally hate sparkling water. It leaves a bad taste in my mouth. But
-  Aura Bora is amazing, and it feels just right.
+text: Aura Bora is tastes absolutely amazing. The crazy part is, I normally hate
+  sparkling water.
 author: Hannah, Denver CO
 ---
