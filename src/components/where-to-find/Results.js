@@ -34,6 +34,7 @@ const Results = ({
   }
 
   const backButton = () => {
+    console.log(selectedCity)
     setSelectedCity(null)
   }
 

@@ -14,7 +14,7 @@ collections:
     label_singular: 'city to Alabama'
     widget: 'list'
     folder: 'src/cms/alabama'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -35,7 +35,7 @@ collections:
     label_singular: 'city to Alaska'
     widget: 'list'
     folder: 'src/cms/alaska'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -56,7 +56,7 @@ collections:
     label_singular: 'city to Arizona'
     widget: 'list'
     folder: 'src/cms/arizona'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -77,7 +77,7 @@ collections:
     label_singular: 'city to Arkansas'
     widget: 'list'
     folder: 'src/cms/arkansas'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -98,7 +98,7 @@ collections:
     label_singular: 'city to California'
     widget: 'list'
     folder: 'src/cms/california'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -124,7 +124,7 @@ collections:
     label_singular: 'city to Colorado'
     widget: 'list'
     folder: 'src/cms/colorado'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -145,7 +145,7 @@ collections:
     label_singular: 'city to Connecticut'
     widget: 'list'
     folder: 'src/cms/connecticut'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -171,7 +171,7 @@ collections:
     label_singular: 'city to Delaware'
     widget: 'list'
     folder: 'src/cms/delaware'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -192,7 +192,7 @@ collections:
     label_singular: 'city to Florida'
     widget: 'list'
     folder: 'src/cms/florida'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -213,7 +213,7 @@ collections:
     label_singular: 'city to Georgia'
     widget: 'list'
     folder: 'src/cms/georgia'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -234,7 +234,7 @@ collections:
     label_singular: 'city to Hawaii'
     widget: 'list'
     folder: 'src/cms/hawaii'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -255,7 +255,7 @@ collections:
     label_singular: 'city to Idaho'
     widget: 'list'
     folder: 'src/cms/idaho'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -276,7 +276,7 @@ collections:
     label_singular: 'city to Illinois'
     widget: 'list'
     folder: 'src/cms/illinois'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -297,7 +297,7 @@ collections:
     label_singular: 'city to Indiana'
     widget: 'list'
     folder: 'src/cms/indiana'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -318,7 +318,7 @@ collections:
     label_singular: 'city to Iowa'
     widget: 'list'
     folder: 'src/cms/iowa'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -339,7 +339,7 @@ collections:
     label_singular: 'city to Kansas'
     widget: 'list'
     folder: 'src/cms/kansas'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -360,7 +360,7 @@ collections:
     label_singular: 'city to Kentucky'
     widget: 'list'
     folder: 'src/cms/kentucky'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -381,7 +381,7 @@ collections:
     label_singular: 'city to Louisiana'
     widget: 'list'
     folder: 'src/cms/louisiana'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -407,7 +407,7 @@ collections:
     label_singular: 'city to Maine'
     widget: 'list'
     folder: 'src/cms/maine'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -428,7 +428,7 @@ collections:
     label_singular: 'city to Maryland'
     widget: 'list'
     folder: 'src/cms/maryland'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -449,7 +449,7 @@ collections:
     label_singular: 'city to Massachusetts'
     widget: 'list'
     folder: 'src/cms/massachusetts'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -475,7 +475,7 @@ collections:
     label_singular: 'city to Michigan'
     widget: 'list'
     folder: 'src/cms/michigan'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -496,7 +496,7 @@ collections:
     label_singular: 'city to Minnesota'
     widget: 'list'
     folder: 'src/cms/minnesota'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -522,7 +522,7 @@ collections:
     label_singular: 'city to Mississippi'
     widget: 'list'
     folder: 'src/cms/mississippi'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -548,7 +548,7 @@ collections:
     label_singular: 'city to Missouri'
     widget: 'list'
     folder: 'src/cms/missouri'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -569,7 +569,7 @@ collections:
     label_singular: 'city to Montana'
     widget: 'list'
     folder: 'src/cms/montana'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -590,7 +590,7 @@ collections:
     label_singular: 'city to Nebraska'
     widget: 'list'
     folder: 'src/cms/nebraska'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -611,7 +611,7 @@ collections:
     label_singular: 'city to Nevada'
     widget: 'list'
     folder: 'src/cms/nevada'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -632,7 +632,7 @@ collections:
     label_singular: 'city to New Hampshire'
     widget: 'list'
     folder: 'src/cms/new-hampshire'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -658,7 +658,7 @@ collections:
     label_singular: 'city to New Jersey'
     widget: 'list'
     folder: 'src/cms/new-jersey'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -684,7 +684,7 @@ collections:
     label_singular: 'city to New Mexico'
     widget: 'list'
     folder: 'src/cms/new-mexico'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -710,7 +710,7 @@ collections:
     label_singular: 'city to New York'
     widget: 'list'
     folder: 'src/cms/new-york'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -731,7 +731,7 @@ collections:
     label_singular: 'city to North Carolina'
     widget: 'list'
     folder: 'src/cms/north-carolina'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -757,7 +757,7 @@ collections:
     label_singular: 'city to North Dakota'
     widget: 'list'
     folder: 'src/cms/north-dakota'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -783,7 +783,7 @@ collections:
     label_singular: 'city to Ohio'
     widget: 'list'
     folder: 'src/cms/ohio'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -804,7 +804,7 @@ collections:
     label_singular: 'city to Oklahoma'
     widget: 'list'
     folder: 'src/cms/oklahoma'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -825,7 +825,7 @@ collections:
     label_singular: 'city to Oregon'
     widget: 'list'
     folder: 'src/cms/oregon'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -846,7 +846,7 @@ collections:
     label_singular: 'city to Pennsylvania'
     widget: 'list'
     folder: 'src/cms/pennsylvania'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -872,7 +872,7 @@ collections:
     label_singular: 'city to Rhode Island'
     widget: 'list'
     folder: 'src/cms/rhode-island'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -898,7 +898,7 @@ collections:
     label_singular: 'city to South Carolina'
     widget: 'list'
     folder: 'src/cms/south-carolina'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -924,7 +924,7 @@ collections:
     label_singular: 'city to South Dakota'
     widget: 'list'
     folder: 'src/cms/south-dakota'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -950,7 +950,7 @@ collections:
     label_singular: 'city to Tennessee'
     widget: 'list'
     folder: 'src/cms/tennessee'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -976,7 +976,7 @@ collections:
     label_singular: 'city to Texas'
     widget: 'list'
     folder: 'src/cms/texas'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -997,7 +997,7 @@ collections:
     label_singular: 'city to Utah'
     widget: 'list'
     folder: 'src/cms/utah'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -1018,7 +1018,7 @@ collections:
     label_singular: 'city to Vermont'
     widget: 'list'
     folder: 'src/cms/vermont'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -1039,7 +1039,7 @@ collections:
     label_singular: 'city to Virginia'
     widget: 'list'
     folder: 'src/cms/virginia'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -1060,7 +1060,7 @@ collections:
     label_singular: 'city to Washington'
     widget: 'list'
     folder: 'src/cms/washington'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -1086,7 +1086,7 @@ collections:
     label_singular: 'city to West Virginia'
     widget: 'list'
     folder: 'src/cms/west-virginia'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -1112,7 +1112,7 @@ collections:
     label_singular: 'city to Wisconsin'
     widget: 'list'
     folder: 'src/cms/wisconsin'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -1138,7 +1138,7 @@ collections:
     label_singular: 'city to Wyoming'
     widget: 'list'
     folder: 'src/cms/wyoming'
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.city}}'
+    slug: '{{fields.city}}'
     identifier_field: name
     create: true
     editor:
@@ -1159,7 +1159,7 @@ collections:
     label_singular: 'Testimonial'
     folder: 'src/cms/testimonials'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{fields.author}}'
+    slug: '{{fields.author}}'
     identifier_field: text
     editor:
       preview: false
