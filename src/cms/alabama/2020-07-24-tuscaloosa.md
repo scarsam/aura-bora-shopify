@@ -2,6 +2,6 @@
 city: "Tuscaloosa "
 state: alabama
 stores:
-  - name: Manna Grocerys
+  - name: Manna Grocery
     address: 2350 McFarland Boulevard East
 ---
