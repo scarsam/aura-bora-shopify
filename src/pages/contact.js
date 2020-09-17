@@ -15,7 +15,7 @@ const Contact = () => {
       <Layout>
         <SEO title="Say hey" />
         {success === 'true' && <Toast text={'Message sent'} />}
-        <section className="where-to-find">
+        <section className="where-to-find padding-bottom-md-20px">
           <div className="container padding-top-20px">
             <div className="row">
               <div className="col-12 col-md-6 offset-md-3">
@@ -33,40 +33,37 @@ const Contact = () => {
                   <input type="hidden" name="bot-field" />
                   <input type="hidden" name="form-name" value="contact" />
                   <p>
-                    <label className="body-4">
-                      Your name
-                      <input
-                        className="d-block margin-top-10px"
-                        type="text"
-                        name="name"
-                        required
-                      />
-                    </label>
+                    <input
+                      className="d-block margin-top-10px body-5"
+                      type="text"
+                      name="name"
+                      required
+                      placeholder="Your name.."
+                    />
                   </p>
                   <p>
-                    <label className="body-4">
-                      Your email
-                      <input
-                        className="d-block margin-top-10px"
-                        type="email"
-                        name="email"
-                        required
-                      />
-                    </label>
+                    <input
+                      className="d-block margin-top-10px body-5"
+                      type="email"
+                      name="email"
+                      placeholder="Your email.."
+                      required
+                    />
                   </p>
                   <p>
-                    <label className="body-4">
-                      Message
-                      <textarea
-                        className="d-block margin-top-10px"
-                        name="message"
-                        rows="10"
-                        required
-                      ></textarea>
-                    </label>
+                    <textarea
+                      className="d-block margin-top-10px body-5"
+                      name="message"
+                      rows="10"
+                      required
+                      placeholder="Your message.."
+                    ></textarea>
                   </p>
                   <p>
-                    <button className="primary-btn cta" type="submit">
+                    <button
+                      className="primary-btn cta margin-top-5px"
+                      type="submit"
+                    >
                       Send
                     </button>
                   </p>

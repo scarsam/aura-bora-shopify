@@ -81,7 +81,7 @@ const WhereToFind = ({ data }) => {
           <div className="container padding-top-20px">
             <div className="row">
               <div className="col-12">
-                <div className="text-center padding-bottom-lg-55px hero">
+                <div className="text-center padding-bottom-lg-15px hero">
                   <img alt="Where to find us" src={heroImage} />
                 </div>
               </div>

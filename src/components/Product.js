@@ -5,6 +5,7 @@ import { formatPrice } from '../helpers/numberHelpers'
 import ProductOutOfStock from './ProductOutOfStock'
 import ProductInfo from './ProductInfo'
 import { useAddItemToCart } from 'store'
+import addToCartAnimation from 'images/products/add-to-cart-slooth.svg'
 
 const Product = ({
   name,
@@ -17,19 +18,33 @@ const Product = ({
   showInfoPane,
   setShowInfoPane,
 }) => {
+  const [buttonText, setButtonText] = useState('Add to bouquet')
+  const [isAnimating, setAnimating] = useState(false)
+  const [isAdding, setAdding] = useState(false)
   const colorRef = name.replace('-', '_')
   const addItemToCart = useAddItemToCart()
-  const [buttonText, setButtonText] = useState('Add to bouquet')
 
   const addToCart = async id => {
     setButtonText('Added')
+    setAnimating(true)
+    setAdding(true)
     await addItemToCart(id, 1)
+    setAdding(false)
     setButtonText('Add to bouquet')
+
+    // Time is matching with css in product.scss
+    setTimeout(() => {
+      setAnimating(false)
+    }, 1500)
   }
 
   return (
     <div className="col-12 col-md-6 padding-bottom-20px">
-      <div className="product-wrapper relative font-space-mono">
+      <div
+        className={`product-wrapper relative font-space-mono add-to-cart-animation ${isAnimating &&
+          'animated'}`}
+      >
+        <img className="slooth absolute" src={addToCartAnimation} />
         {isInStock ? (
           <>
             <div>
@@ -58,6 +73,7 @@ const Product = ({
               <button
                 className="cta primary-btn bg-white padding-top-15px padding-bottom-15px padding-left-lg-30px padding-right-lg-30px margin-bottom-30px margin-bottom-lg-40px add-product-btn"
                 onClick={() => addToCart(id)}
+                disabled={isAdding}
               >
                 {buttonText}
               </button>

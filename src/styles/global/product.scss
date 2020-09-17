@@ -4,7 +4,8 @@
   width: 100%;
   .add-product-btn {
     height: 80px;
-    border-radius: 200px;
+    border-radius: 40px;
+    min-width: 255px;
   }
 }
 
@@ -107,5 +108,36 @@
   }
   .out-of-stock img {
     max-height: 200px;
+  }
+}
+
+.add-to-cart-animation {
+  clip-path: inset(0px 0px);
+  .slooth {
+    top: 35%;
+    left: 0;
+    transform: translateX(-100%);
+    z-index: 9;
+  }
+
+  &.animated {
+    .slooth {
+      animation: slooth 1.5s ease-in-out forwards;
+    }
+  }
+}
+
+@keyframes slooth {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
