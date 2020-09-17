@@ -20,16 +20,22 @@ const Product = ({
 }) => {
   const [buttonText, setButtonText] = useState('Add to bouquet')
   const [isAnimating, setAnimating] = useState(false)
+  const [isAdding, setAdding] = useState(false)
   const colorRef = name.replace('-', '_')
   const addItemToCart = useAddItemToCart()
-  const [buttonText, setButtonText] = useState('Add to bouquet')
 
   const addToCart = async id => {
     setButtonText('Added')
     setAnimating(true)
+    setAdding(true)
     await addItemToCart(id, 1)
+    setAdding(false)
     setButtonText('Add to bouquet')
-    setAnimating(false)
+
+    // Time is matching with css in product.scss
+    setTimeout(() => {
+      setAnimating(false)
+    }, 1500)
   }
 
   return (
@@ -67,7 +73,7 @@ const Product = ({
               <button
                 className="cta primary-btn bg-white padding-top-15px padding-bottom-15px padding-left-lg-30px padding-right-lg-30px margin-bottom-30px margin-bottom-lg-40px add-product-btn"
                 onClick={() => addToCart(id)}
-                disabled={isAnimating}
+                disabled={isAdding}
               >
                 {buttonText}
               </button>

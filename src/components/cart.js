@@ -120,7 +120,7 @@ const Cart = () => {
                   key={index}
                   className="padding-top-20px padding-top-lg-40px body-4"
                 >
-                  <strong className="margin-none d-block padding-bottom-lg-15px font-space-mono">
+                  <strong className="margin-none d-block padding-bottom-lg-15px font-barlow">
                     {product.title}
                   </strong>
                   <div className="d-flex justify-content-between align-items-center cart-item-detail padding-bottom-30px">

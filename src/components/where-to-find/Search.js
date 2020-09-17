@@ -26,7 +26,7 @@ const Search = ({ handleState }) => {
   return (
     <>
       <input
-        className="padding-left-30px padding-right-30px width-100"
+        className="padding-left-20px padding-right-20px width-100"
         type="text"
         value={searchQuery}
         onChange={e => setSearchQuery(e.target.value.toLowerCase())}

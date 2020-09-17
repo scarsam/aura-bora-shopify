@@ -4,7 +4,8 @@
   width: 100%;
   .add-product-btn {
     height: 80px;
-    border-radius: 200px;
+    border-radius: 40px;
+    min-width: 255px;
   }
 }
 
@@ -120,9 +121,8 @@
   }
 
   &.animated {
-    animation: sloothMask 700ms ease-in-out forwards;
     .slooth {
-      animation: slooth 700ms ease-in-out forwards;
+      animation: slooth 1.5s ease-in-out forwards;
     }
   }
 }
@@ -131,28 +131,13 @@
   0% {
     transform: translateX(-100%);
   }
-  50% {
-    transform: translateX(-45px);
+  25% {
+    transform: translateX(0);
   }
   75% {
-    transform: translateX(-45px);
+    transform: translateX(0);
   }
-}
-
-@keyframes sloothMask {
-  0% {
-    clip-path: inset(0px 0px);
-  }
-  48% {
-    clip-path: inset(0px 0px);
-  }
-  49% {
-    clip-path: inset(0px -45px);
-  }
-  74% {
-    clip-path: inset(0px -45px);
-  }
-  75% {
-    clip-path: inset(0px 0px);
+  100% {
+    transform: translateX(-100%);
   }
 }
