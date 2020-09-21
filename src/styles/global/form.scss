@@ -26,6 +26,7 @@ input {
 .contact {
   input,
   textarea {
+    border-radius: 4px;
     min-height: 46;
     border: 2px solid $black;
     padding: 18px 20px;
