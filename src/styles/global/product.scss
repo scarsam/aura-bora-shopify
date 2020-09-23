@@ -115,14 +115,14 @@
   clip-path: inset(0px 0px);
   .slooth {
     top: 35%;
-    left: 0;
+    left: -12px;
     transform: translateX(-100%);
     z-index: 9;
   }
 
   &.animated {
     .slooth {
-      animation: slooth 1.5s ease-in-out forwards;
+      animation: slooth 1.5s cubic-bezier(0.51, 0.92, 0.24, 1.15) forwards;
     }
   }
 }
