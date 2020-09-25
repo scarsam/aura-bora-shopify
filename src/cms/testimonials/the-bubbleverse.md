@@ -1,5 +1,4 @@
 ---
-text: "[If you’re looking to ascend, quaff this
-  nectar.](https://thebubbleverse.com/) 🌵🌹🧘🏻‍♀️"
+text: If you’re looking to ascend, quaff this nectar.
 author: The Bubbleverse
 ---
