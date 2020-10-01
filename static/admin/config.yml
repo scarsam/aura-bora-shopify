@@ -1166,3 +1166,4 @@ collections:
     fields:
       - { label: 'Text', name: 'text', widget: 'markdown' }
       - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'url', name: 'url', widget: 'string' }
