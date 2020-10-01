@@ -132,6 +132,7 @@ export const pageQuery = graphql`
           frontmatter {
             text
             author
+            url
           }
         }
       }

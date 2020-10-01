@@ -52,7 +52,20 @@ const Carousel = ({ testamonials }) => {
                   <div className="body-3 c-black">
                     <ReactMarkdown source={item.text} />
                     <p className="margin-none body-4 font-barlow">
-                      <strong>{item.author}</strong>
+                      {item?.url ? (
+                        <strong>
+                          <a
+                            class="c-black"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={item.url}
+                          >
+                            {item.author}
+                          </a>
+                        </strong>
+                      ) : (
+                        <strong>{item.author}</strong>
+                      )}
                     </p>
                   </div>
                   <img
