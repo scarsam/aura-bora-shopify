@@ -1,5 +1,5 @@
 ---
-city: Westminister
+city: Westminster
 state: colorado
 stores:
   - name: Whole Foods Bradburn
