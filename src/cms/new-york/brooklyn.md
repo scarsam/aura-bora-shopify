@@ -10,4 +10,6 @@ stores:
     address: "1701 Church Avenue "
   - name: Bob & Betty's Gourmet
     address: "805 Franklin Avenue "
+  - name: Healthy Organic Market
+    address: 370-388 Throop Avenue
 ---
