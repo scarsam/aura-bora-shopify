@@ -2,6 +2,6 @@
 city: Jasper
 state: indiana
 stores:
-  - name: Grounded Llc
+  - name: Grounded LLC
     address: 435 US Highway 231
 ---
