@@ -6,4 +6,6 @@ stores:
     address: 4038 Piedmont Avenue
   - name: Rocky's Market
     address: 1440 Leimert Boulevard
+  - name: The Food Mill
+    address: 3033 MacArthur Boulevard
 ---
