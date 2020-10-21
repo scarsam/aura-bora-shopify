@@ -2,7 +2,7 @@
 city: "Springfield "
 state: missouri
 stores:
-  - name: "Mama Jeans Nat Fds Mkt #2Infra"
+  - name: "Mama Jeans Natural Market "
     address: "110 East Republic Road                      "
   - name: Harter House
     address: 1625 South Eastgate Avenue
