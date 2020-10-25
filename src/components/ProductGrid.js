@@ -11,6 +11,11 @@ export const ProductGrid = () => {
     data &&
     data.filter(item => item.node.availableForSale).map(item => item.node)
 
+  const sortedItems = [
+    ...items.filter(x => x.handle === "variety-pack"),
+    ...items.filter(x => x.handle !== "variety-pack")
+  ]
+
   return (
     <section>
       <div className="container padding-top-30px" id="shop">
@@ -19,8 +24,8 @@ export const ProductGrid = () => {
         </div>
 
         <div className="row">
-          {items &&
-            items.map((item, index) => (
+          {sortedItems &&
+            sortedItems.map((item, index) => (
               <Product
                 key={index}
                 id={item.variants[0].shopifyId}
