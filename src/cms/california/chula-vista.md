@@ -4,4 +4,6 @@ state: california
 stores:
   - name: Sprouts
     address: 878 East Lake Parkway
+  - name: Henry's Market
+    address: 878 Eastlake Parkway
 ---
