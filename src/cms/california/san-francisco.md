@@ -28,4 +28,6 @@ stores:
     address: 1524 20th Street
   - name: Rainbow Grocery
     address: 1745 Folsom Street
+  - name: Real Food Company
+    address: 2140 Polk Street
 ---
