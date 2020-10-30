@@ -8,4 +8,6 @@ stores:
     address: 1440 Leimert Boulevard
   - name: The Food Mill
     address: 3033 MacArthur Boulevard
+  - name: Mandela Grocery Cooperative
+    address: 1430 7th Street
 ---
