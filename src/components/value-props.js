@@ -4,11 +4,11 @@ import smileIcon from 'images/smile-icon.svg'
 
 // Desktop
 const valuesOneDesktop = ['0 Sugar', '0 Calories', '0 Sodium']
-const valuesTwoDesktop = ['Gluten free', 'Non GMO', 'Vegan', 'Plant based']
+const valuesTwoDesktop = ['Whole30', 'Non GMO', 'Vegan', 'Plant based']
 const valuesThreeDesktop = ['No artificial flavors', '1% for the Planet']
 // Mobile
 const valuesOneMobile = ['0 Sugar', '0 Calories']
-const valuesTwoMobile = ['0 Sodium', 'Gluten free', 'Non GMO']
+const valuesTwoMobile = ['0 Sodium', 'Whole30', 'Non GMO']
 const valuesThreeMobile = ['Vegan', 'Plant based']
 const valuesFourMobile = ['No artificial flavors', '1% for the Planet']
 
