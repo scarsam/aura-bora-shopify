@@ -32,7 +32,7 @@ const Carousel = ({ testamonials }) => {
     }
   }, [])
   return (
-    <div className="padding-top-40px padding-top-lg-60px padding-bottom-40px padding-bottom-lg-60px carousel">
+    <div className="padding-top-40px padding-top-lg-50px padding-bottom-40px padding-bottom-lg-60px carousel">
       <CarouselProvider
         naturalSlideWidth={530}
         naturalSlideHeight={420}
@@ -49,7 +49,7 @@ const Carousel = ({ testamonials }) => {
             testamonials.map((item, index) => (
               <Slide key={index} index={index}>
                 <div className="qoute-card bg-white d-flex align-items-center relative padding-bottom-20px">
-                  <div className="body-3 c-black">
+                  <div className="body-4 c-black">
                     <ReactMarkdown source={item.text} />
                     <p className="margin-none body-4 font-barlow">
                       {item?.url ? (

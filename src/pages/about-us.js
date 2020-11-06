@@ -23,7 +23,7 @@ const About = ({ data }) => {
       <Layout>
         <SEO title="About us" />
         <section className="about-us">
-          <div className="container padding-top-20px padding-bottom-10px padding-bottom-lg-30px">
+          <div className="container padding-top-20px padding-bottom-60px">
             <div className="row">
               <div className="col-12">
                 <div className="text-center hero">
@@ -95,7 +95,7 @@ const About = ({ data }) => {
 
         <section className="happy-thoughts bg-lightPink">
           <div className="container padding-top-40px padding-top-lg-40px padding-bottom-none">
-            <div className="row padding-top-md-60px">
+            <div className="row padding-top-md-20px">
               <div className="col-8 offset-1 col-md-12 offset-md-0">
                 <div className="hero text-left text-center-md">
                   <img
