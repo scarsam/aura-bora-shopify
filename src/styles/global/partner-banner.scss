@@ -1,0 +1,14 @@
+.partner-banner{
+    .partner-banner-background {
+      background-image: url('../images/partner-banner/banner-bg.svg');
+      background-repeat: no-repeat;
+      height: 200px;
+      @include media_min_break(sm) {
+        background-position: center center;
+      }
+    }
+    @include media_min_break(md) {
+      padding-bottom: 170px;
+    }
+  }
+  

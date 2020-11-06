@@ -5,6 +5,7 @@ import Hero from 'components/hero'
 import SEO from 'components/seo'
 import ValueProps from 'components/value-props'
 import Banner from 'components/ShopBanner'
+import PartnerBanner from "components/PartnerBanner"
 
 const IndexPage = () => {
   useEffect(() => {
@@ -42,6 +43,7 @@ const IndexPage = () => {
         </Hero>
         <ValueProps />
         <ProductGrid />
+        <PartnerBanner />
       </Layout>
     </>
   )
