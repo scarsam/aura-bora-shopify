@@ -1,5 +1,5 @@
 ---
-city: EASTON
+city: Easton
 state: pennsylvania
 stores:
   - name: Essence of Health
