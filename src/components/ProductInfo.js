@@ -32,9 +32,7 @@ const ProductInfo = ({
         {description &&
           description.split(',').map((item, index) => (
             <p
-              className={`margin-none padding-bottom-lg-10px font-space-mono ${
-                title === '"Taste and See" Hat' ? 'body-1' : 'body-3'
-              }`}
+              className="margin-none padding-bottom-lg-10px font-space-mono"
               key={index}
             >
               {item}
@@ -53,7 +51,12 @@ const ProductInfo = ({
       <div className="body-3">
         {description &&
           description.split(',').map((item, index) => (
-            <p className="margin-none padding-bottom-lg-10px" key={index}>
+            <p
+              className={`margin-none padding-bottom-lg-10px font-space-mono ${
+                title === '"Taste and See" Hat' ? 'body-1' : 'body-3'
+              }`}
+              key={index}
+            >
               {item}
             </p>
           ))}
