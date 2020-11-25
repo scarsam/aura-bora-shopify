@@ -68,7 +68,9 @@ const Product = ({
                 {title}
               </h2>
               <p className="m-0 padding-bottom-15px padding-bottom-lg-25px body-3">
-                12x for {formatPrice(price)}
+                {title === '"Taste and See" Hat'
+                  ? `${formatPrice(price)}`
+                  : `12x for ${formatPrice(price)}`}
               </p>
               <button
                 className="cta primary-btn bg-white padding-top-15px padding-bottom-15px padding-left-lg-30px padding-right-lg-30px margin-bottom-30px margin-bottom-lg-40px add-product-btn"

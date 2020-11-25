@@ -125,7 +125,9 @@ const Cart = () => {
                   </strong>
                   <div className="d-flex justify-content-between align-items-center cart-item-detail padding-bottom-30px">
                     <p className="body-5 margin-bottom-none font-space-mono">
-                      12X for {formatPrice(product.variant.price)}
+                      {product.title === '"Taste and See" Hat'
+                        ? `${formatPrice(product.variant.price)}`
+                        : `12X for ${formatPrice(product.variant.price)}`}
                     </p>
                     <div className="d-flex align-items-center">
                       <button

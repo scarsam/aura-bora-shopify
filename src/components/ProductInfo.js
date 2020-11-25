@@ -22,10 +22,9 @@ const ProductInfo = ({
     />
 
     <h2 className="margin-bottom-30px margin-bottom-lg-50px h2 font-barlow">
-      {title &&
-        title.split(' ').map((word, index) => <div key={index}>{word}</div>)}
+      {title}
     </h2>
-    {title && title !== 'Variety pack' ? (
+    {title && title !== 'Variety pack' && title !== '"Taste and See" Hat' ? (
       <div className="padding-right-80px">
         <p className="margin-none padding-bottom-lg-20px body-4">
           <strong>Ingredients</strong>
