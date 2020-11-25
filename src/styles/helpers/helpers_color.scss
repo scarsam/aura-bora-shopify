@@ -20,7 +20,7 @@ $colors: (
   cactus_rose-i: $cactusRose-info,
   lemongrass_coconut-i: $lemongrassCoconut-info,
   variety_pack-i: $varietyPack-info,
-  taste_and-see-i: $varietyPack-info,
+  taste_and-see-i: $hat-info,
   // product bg colors
     basil_berry: $basilBerry,
   peppermint_watermelon: $peppermintWatermelon,
@@ -28,7 +28,7 @@ $colors: (
   cactus_rose: $cactusRose,
   lemongrass_coconut: $lemongrassCoconut,
   variety_pack: $varietyPack,
-  taste_and-see: $varietyPack,
+  taste_and-see: $hat,
 );
 
 @each $key, $val in $colors {

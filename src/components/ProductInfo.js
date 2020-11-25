@@ -32,7 +32,9 @@ const ProductInfo = ({
         {description &&
           description.split(',').map((item, index) => (
             <p
-              className="margin-none padding-bottom-lg-10px body-3 font-space-mono"
+              className={`margin-none padding-bottom-lg-10px font-space-mono ${
+                title === '"Taste and See" Hat' ? 'body-1' : 'body-3'
+              }`}
               key={index}
             >
               {item}
