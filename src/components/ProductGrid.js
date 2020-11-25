@@ -12,8 +12,8 @@ export const ProductGrid = () => {
     data.filter(item => item.node.availableForSale).map(item => item.node)
 
   const sortedItems = [
-    ...items.filter(x => x.handle === "variety-pack"),
-    ...items.filter(x => x.handle !== "variety-pack")
+    ...items.filter(x => x.handle === 'variety-pack'),
+    ...items.filter(x => x.handle !== 'variety-pack'),
   ]
 
   return (
