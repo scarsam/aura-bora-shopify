@@ -25,14 +25,14 @@ const ProductInfo = ({
       {title}
     </h2>
     {title && title !== 'Variety pack' && title !== '"Taste and See" Hat' ? (
-      <div className="padding-right-80px">
+      <>
         <p className="margin-none padding-bottom-lg-20px body-4">
           <strong>Ingredients</strong>
         </p>
         {description &&
           description.split(',').map((item, index) => (
             <p
-              className="margin-none padding-bottom-lg-10px font-space-mono"
+              className="margin-none padding-bottom-lg-10px font-space-mono body-3"
               key={index}
             >
               {item}
@@ -46,21 +46,24 @@ const ProductInfo = ({
           <p className="margin-none body-3 padding-bottom-lg-10px">0 sugar</p>
           <p className="margin-none body-3">0 sodium</p>
         </div>
-      </div>
+      </>
     ) : (
-      <div className="body-3">
+      <>
+        {title === '"Taste and See" Hat' && (
+          <p className="margin-none padding-bottom-lg-20px body-4">
+            <strong>Details</strong>
+          </p>
+        )}
         {description &&
           description.split(',').map((item, index) => (
             <p
-              className={`margin-none padding-bottom-lg-10px font-space-mono ${
-                title === '"Taste and See" Hat' ? 'body-1' : 'body-3'
-              }`}
+              className="margin-none padding-bottom-lg-10px font-space-mono body-3"
               key={index}
             >
               {item}
             </p>
           ))}
-      </div>
+      </>
     )}
   </div>
 )
