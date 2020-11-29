@@ -42,6 +42,31 @@
   padding-top: 30%;
   right: 0;
   top: 0;
+  .description {
+    strong {
+      margin-bottom: 0;
+      display: block;
+      font-size: 0.8125rem;
+      line-height: 1.666rem;
+      @include media_min_break(lg) {
+        padding-bottom: 20px;
+        font-size: 1.25rem;
+        line-height: 1.666rem;
+      }
+    }
+    ul {
+      font-family: 'Space Mono';
+      li {
+        margin: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+        li {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
 }
 .info-close-icon {
   margin-right: 12%;

@@ -24,47 +24,10 @@ const ProductInfo = ({
     <h2 className="margin-bottom-30px margin-bottom-lg-50px h2 font-barlow">
       {title}
     </h2>
-    {title && title !== 'Variety pack' && title !== '"Taste and See" Hat' ? (
-      <>
-        <p className="margin-none padding-bottom-lg-20px body-4">
-          <strong>Ingredients</strong>
-        </p>
-        {description &&
-          description.split(',').map((item, index) => (
-            <p
-              className="margin-none padding-bottom-lg-10px font-space-mono body-3"
-              key={index}
-            >
-              {item}
-            </p>
-          ))}
-
-        <div className="padding-top-30px font-space-mono">
-          <p className="margin-none body-3 padding-bottom-lg-10px">
-            0 calories
-          </p>
-          <p className="margin-none body-3 padding-bottom-lg-10px">0 sugar</p>
-          <p className="margin-none body-3">0 sodium</p>
-        </div>
-      </>
-    ) : (
-      <>
-        {title === '"Taste and See" Hat' && (
-          <p className="margin-none padding-bottom-lg-20px body-4">
-            <strong>Details</strong>
-          </p>
-        )}
-        {description &&
-          description.split(',').map((item, index) => (
-            <p
-              className="margin-none padding-bottom-lg-10px font-space-mono body-3"
-              key={index}
-            >
-              {item}
-            </p>
-          ))}
-      </>
-    )}
+    <div
+      className="description body-3"
+      dangerouslySetInnerHTML={{ __html: description }}
+    />
   </div>
 )
 

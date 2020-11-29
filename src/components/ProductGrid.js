@@ -6,20 +6,8 @@ import ShopImage from '../images/header-shop.svg'
 export const ProductGrid = () => {
   const [showInfoPane, setShowInfoPane] = useState(null)
   const data = useProducts()
-
-  const items =
-    data &&
-    data.filter(item => item.node.availableForSale).map(item => item.node)
-
-  const varietyPackFilter = [
-    ...items.filter(x => x.handle === 'variety-pack'),
-    ...items.filter(x => x.handle !== 'variety-pack'),
-  ]
-
-  const sortedItems = [
-    ...varietyPackFilter.filter(x => x.handle !== 'taste-and-see'),
-    ...varietyPackFilter.filter(x => x.handle === 'taste-and-see'),
-  ]
+  const { products } = data[0].node || []
+  const availableItems = products.filter(item => item.availableForSale)
 
   return (
     <section>
@@ -29,13 +17,13 @@ export const ProductGrid = () => {
         </div>
 
         <div className="row">
-          {sortedItems &&
-            sortedItems.map((item, index) => (
+          {availableItems &&
+            availableItems.map((item, index) => (
               <Product
                 key={index}
                 id={item.variants[0].shopifyId}
                 title={item.title}
-                description={item.description}
+                description={item.descriptionHtml}
                 price={item.variants[0].price}
                 image={item.variants[0].image.localFile.name}
                 isInStock={item.availableForSale}
@@ -56,23 +44,30 @@ export const useProducts = () => {
   const { data } = useStaticQuery(
     graphql`
       {
-        data: allShopifyProduct(sort: { fields: [title] }) {
+        data: allShopifyCollection(
+          filter: { title: { eq: "Shop" } }
+          limit: 1
+        ) {
           edges {
             node {
               title
-              description
-              availableForSale
-              handle
-              variants {
-                price
-                shopifyId
-                selectedOptions {
-                  name
-                  value
-                }
-                image {
-                  localFile {
+              products {
+                title
+                description
+                descriptionHtml
+                availableForSale
+                handle
+                variants {
+                  price
+                  shopifyId
+                  selectedOptions {
                     name
+                    value
+                  }
+                  image {
+                    localFile {
+                      name
+                    }
                   }
                 }
               }
