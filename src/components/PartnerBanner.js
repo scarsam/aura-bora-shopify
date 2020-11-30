@@ -5,7 +5,7 @@ import logo3 from '../images/partner-banner/logo-3.svg'
 
 const PartnerBanner = () => {
   return (
-    <section className="container padding-top-none partner-banner">
+    <section className="padding-top-none partner-banner">
         <div className="partner-banner-background relative d-flex justify-content-center align-items-center ">
             <div className="d-flex">
                 <a href="https://www.onepercentfortheplanet.org/" target="_blank" rel="noopener noreferrer">
