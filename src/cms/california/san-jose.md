@@ -12,4 +12,6 @@ stores:
     name: Walmart - COMING SOON
   - name: Walmart - COMING SOON
     address: 777 Story Road
+  - address: 5095 Almaden Expressway
+    name: Walmart - COMING SOON
 ---
