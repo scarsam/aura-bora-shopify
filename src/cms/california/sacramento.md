@@ -10,4 +10,6 @@ stores:
     address: 915 R Street
   - name: Walmart - COMING SOON
     address: 8270 Delta Shores Circle
+  - address: 6051 Florin Road
+    name: Walmart - COMING SOON
 ---
