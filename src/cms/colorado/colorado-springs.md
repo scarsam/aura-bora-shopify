@@ -12,4 +12,8 @@ stores:
     name: Walmart - COMING SOON
   - address: 8250 Razorback Road
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 1622 S Academy Boulevard
+  - name: Walmart - COMING SOON
+    address: 665 N Murray Boulevard
 ---
