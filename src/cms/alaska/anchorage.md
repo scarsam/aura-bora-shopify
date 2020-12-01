@@ -7,5 +7,5 @@ stores:
   - name: Walmart - COMING SOON
     address: 3101 A Street
   - name: Walmart - COMING SOON
-    address: 8900 Old Seward Highway
+    address: 7405 DeBarr Road
 ---
