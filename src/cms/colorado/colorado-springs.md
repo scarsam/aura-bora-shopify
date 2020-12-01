@@ -22,4 +22,6 @@ stores:
     name: Walmart - COMING SOON
   - address: 1575 Space Center Drive
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 5550 E Woodmen Road
 ---
