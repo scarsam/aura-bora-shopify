@@ -14,4 +14,6 @@ stores:
     name: Walmart - COMING SOON
   - address: 1804 East Ashlan Avenue
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 6855 N Willow Avenue
 ---
