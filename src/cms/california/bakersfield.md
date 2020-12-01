@@ -14,4 +14,6 @@ stores:
     address: 3111 North Chester
   - name: Walmart - COMING SOON
     address: 5037 East Brundage Lane
+  - name: Walmart - COMING SOON
+    address: 5075 Gosford Road
 ---
