@@ -26,4 +26,6 @@ stores:
     address: 7800 Smith Road
   - name: Walmart - COMING SOON
     address: 9400 E Hampden Avenue
+  - name: Walmart - COMING SOON
+    address: 2770 W Evans Avenue
 ---
