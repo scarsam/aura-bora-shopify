@@ -10,4 +10,6 @@ stores:
     address: 3201 E Platte Avenue
   - address: 707 S 8th Street
     name: Walmart - COMING SOON
+  - address: 8250 Razorback Road
+    name: Walmart - COMING SOON
 ---
