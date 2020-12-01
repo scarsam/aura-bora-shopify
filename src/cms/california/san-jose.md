@@ -8,4 +8,6 @@ stores:
     address: 4055 Evergreen Village Square Suite
   - name: Walmart - COMING SOON
     address: 1600 Saratoga Avenue Unit 501
+  - address: 1450 Monterey Road
+    name: Walmart - COMING SOON
 ---
