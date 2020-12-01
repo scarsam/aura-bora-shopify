@@ -12,4 +12,6 @@ stores:
     address: 3131 N Cedar Avenue
   - address: 7065 N Ingram Avenue
     name: Walmart - COMING SOON
+  - address: 1804 East Ashlan Avenue
+    name: Walmart - COMING SOON
 ---
