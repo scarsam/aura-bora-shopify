@@ -10,4 +10,6 @@ stores:
     address: 21475 E Quincy Avenue
   - address: 15240 E Iliff Avenue
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 6101 S Aurora Parkway
 ---
