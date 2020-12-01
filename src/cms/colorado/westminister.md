@@ -10,4 +10,6 @@ stores:
     address: 7155 Sheridan Boulevard
   - name: Walmart - COMING SOON
     address: 200 W 136th Avenue
+  - name: Walmart - COMING SOON
+    address: 7170 N Federal Boulevard
 ---
