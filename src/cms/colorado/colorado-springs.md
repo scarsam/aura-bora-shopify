@@ -20,4 +20,6 @@ stores:
     name: Walmart - COMING SOON
   - address: 1725 N Union Boulevard
     name: Walmart - COMING SOON
+  - address: 1575 Space Center Drive
+    name: Walmart - COMING SOON
 ---
