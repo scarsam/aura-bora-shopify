@@ -10,4 +10,6 @@ stores:
     address: 1600 Saratoga Avenue Unit 501
   - address: 1450 Monterey Road
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 777 Story Road
 ---
