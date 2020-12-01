@@ -16,4 +16,8 @@ stores:
     address: 1622 S Academy Boulevard
   - name: Walmart - COMING SOON
     address: 665 N Murray Boulevard
+  - address: 4142 Austin Bluffs Parkway
+    name: Walmart - COMING SOON
+  - address: 1725 N Union Boulevard
+    name: Walmart - COMING SOON
 ---
