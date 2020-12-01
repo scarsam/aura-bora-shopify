@@ -18,4 +18,8 @@ stores:
     address: 1111 South Washington Street
   - name: Whole Foods Tamarac
     address: 7400 East Hampden Avenue
+  - address: 5141 Chambers Road
+    name: Walmart - COMING SOON
+  - address: 1442 S Parker Road
+    name: Walmart - COMING SOON
 ---
