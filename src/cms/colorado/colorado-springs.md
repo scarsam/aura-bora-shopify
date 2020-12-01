@@ -6,4 +6,6 @@ stores:
     address: "7635 North Academy Boulevard "
   - name: Mountain Mama Natural Foods
     address: "1625 Suite A. West Uintah Street "
+  - name: Walmart - COMING SOON
+    address: 3201 E Platte Avenue
 ---
