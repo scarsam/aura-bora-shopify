@@ -14,4 +14,6 @@ stores:
     address: 6101 S Aurora Parkway
   - name: Walmart - COMING SOON
     address: 3301 Tower Road
+  - address: 10400 E Colfax Avenue
+    name: Walmart - COMING SOON
 ---
