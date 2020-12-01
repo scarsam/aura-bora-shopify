@@ -12,4 +12,6 @@ stores:
     address: 8270 Delta Shores Circle
   - address: 6051 Florin Road
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 8915 Gerber Road
 ---
