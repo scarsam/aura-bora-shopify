@@ -22,4 +22,8 @@ stores:
     name: Walmart - COMING SOON
   - address: 1442 S Parker Road
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 7800 Smith Road
+  - name: Walmart - COMING SOON
+    address: 9400 E Hampden Avenue
 ---
