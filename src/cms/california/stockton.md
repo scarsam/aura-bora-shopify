@@ -8,4 +8,6 @@ stores:
     address: 3223 E Hammer Lane
   - address: 1189 E March Lane
     name: Walmart - COMING SOON
+  - name: Walmart - COMING SOON
+    address: 10355 Trinity Parkway
 ---
