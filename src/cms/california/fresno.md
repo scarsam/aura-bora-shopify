@@ -8,4 +8,6 @@ stores:
     address: 3680 W Shaw Avenue
   - name: Walmart - COMING SOON
     address: 5125 East Kings Canyon Road
+  - name: Walmart - COMING SOON
+    address: 3131 N Cedar Avenue
 ---
