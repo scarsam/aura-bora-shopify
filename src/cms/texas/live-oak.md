@@ -2,6 +2,6 @@
 city: Live Oak
 state: texas
 stores:
-  - name: MARVELOUS CAT LLC DBA LIVE OAK
+  - name: Marvelous Cat LLC DBA Live Oak
     address: DBA Live Oak Market, TX
 ---
