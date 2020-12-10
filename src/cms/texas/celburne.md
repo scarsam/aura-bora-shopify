@@ -1,5 +1,5 @@
 ---
-city: Celburne
+city: Cleburne
 state: texas
 stores:
   - name: Family Nutrition Center
