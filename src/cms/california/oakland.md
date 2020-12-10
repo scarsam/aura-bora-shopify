@@ -10,4 +10,6 @@ stores:
     address: 3033 MacArthur Boulevard
   - name: Mandela Grocery Cooperative
     address: 1430 7th Street
+  - name: Village Market
+    address: 5885 Broadway Terrace
 ---
