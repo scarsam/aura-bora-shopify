@@ -6,4 +6,6 @@ stores:
     name: Walmart - COMING SOON
   - address: 250 W 65th Street
     name: Walmart - COMING SOON
+  - name: Walmart Loveland Distribution Center
+    address: 7500 E. Crossroads Boulevard
 ---
