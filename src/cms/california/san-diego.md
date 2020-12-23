@@ -10,4 +10,6 @@ stores:
     name: Cardiff Seaside Market
   - name: Sprouts Farmers Market
     address: 1260 Garnet Avenue / Dock
+  - name: Sprouts Farmers Market
+    address: 4439 Genesee Avenue
 ---
