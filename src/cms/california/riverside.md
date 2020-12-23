@@ -6,4 +6,6 @@ stores:
     name: Goodwin's Organics
   - name: La Sierra Natural Foods
     address: 11550 Pierce Street
+  - name: Sprouts Farmers Market
+    address: 475 E Alessandro Boulevard
 ---
