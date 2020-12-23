@@ -1,5 +1,5 @@
 ---
-city: Bismark
+city: Bismarck
 state: north dakota
 stores:
   - name: Cash Wise
