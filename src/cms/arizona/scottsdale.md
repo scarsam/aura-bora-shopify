@@ -9,5 +9,5 @@ stores:
   - name: AJ's Fine Foods
     address: 15031 N Thompson Peak Parkway
   - name: Sprouts Farmers Market
-    address: 9301 E Shea Boulevard Suite .#132
+    address: "9301 E Shea Boulevard Suite "
 ---
