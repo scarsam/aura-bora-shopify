@@ -12,4 +12,6 @@ stores:
     address: 1260 Garnet Avenue / Dock
   - name: Sprouts Farmers Market
     address: 4439 Genesee Avenue
+  - name: Stumps
+    address: 3770 Voltaire Street
 ---
