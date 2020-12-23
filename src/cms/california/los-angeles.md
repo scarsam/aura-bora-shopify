@@ -10,4 +10,6 @@ stores:
     address: 2080 Hillhurst
   - name: Vicente Foods
     address: 12027 San Vicente Boulevard
+  - name: Bristol Farms
+    address: 1515 Westwood Boulevard
 ---
