@@ -8,4 +8,6 @@ stores:
     address: 422 West Washington Street
   - address: "2087 San Elijo Avenue "
     name: Cardiff Seaside Market
+  - name: Sprouts Farmers Market
+    address: 1260 Garnet Avenue / Dock
 ---
