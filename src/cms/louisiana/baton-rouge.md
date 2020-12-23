@@ -10,4 +10,6 @@ stores:
     address: 18111 Highland Road
   - name: Our Daily Bread
     address: "9414 Florida Boulevard "
+  - name: Lucy's Health Foods
+    address: 9880 Bluebonnet Boulevard
 ---
