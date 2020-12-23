@@ -6,4 +6,6 @@ stores:
     address: 7141 E Lincoln Drive
   - name: AJ's Fine Foods
     address: 31311 N Scottsdale Road
+  - name: AJ's Fine Foods
+    address: 15031 N Thompson Peak Parkway
 ---
