@@ -8,4 +8,6 @@ stores:
     address: 901 James Street
   - name: Uwajimaya Seattle
     address: "600 5th Avenue S. "
+  - name: Rainbow Natural Remedies
+    address: 409 15th Avenue E
 ---
