@@ -14,4 +14,6 @@ stores:
     address: 4439 Genesee Avenue
   - name: Stumps
     address: 3770 Voltaire Street
+  - name: Sprouts Farmers Market
+    address: 11710 Carmel Mountain Road
 ---
