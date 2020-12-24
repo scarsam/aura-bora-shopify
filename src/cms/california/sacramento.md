@@ -28,4 +28,6 @@ stores:
     address: 1540 W El Camino Avenue
   - name: Bel Air
     address: 7465 Rush River Drive
+  - name: Bel Air
+    address: 3250 Arena Boulevard
 ---
