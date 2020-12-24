@@ -32,4 +32,6 @@ stores:
     address: 2140 Polk Street
   - name: Other Avenues Market
     address: 3930 Judah Street
+  - name: Duc Loi Supermarket
+    address: 2200 Mission Street
 ---
