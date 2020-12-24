@@ -16,4 +16,6 @@ stores:
     address: 3770 Voltaire Street
   - name: Sprouts Farmers Market
     address: 11710 Carmel Mountain Road
+  - name: Ralph's Fine Foods
+    address: 11875 Carmel Mountain Road
 ---
