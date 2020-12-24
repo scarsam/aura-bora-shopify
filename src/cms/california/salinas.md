@@ -6,4 +6,6 @@ stores:
     name: Walmart - COMING SOON
   - address: 1375 N Davis Road
     name: Walmart - COMING SOON
+  - name: Nob Hill Foods
+    address: 1320 S Main Street
 ---
