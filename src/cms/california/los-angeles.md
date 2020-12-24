@@ -12,4 +12,6 @@ stores:
     address: 12027 San Vicente Boulevard
   - name: Bristol Farms
     address: 1515 Westwood Boulevard
+  - name: Rainbow Acres
+    address: 13208 W. Washington Boulevard
 ---
