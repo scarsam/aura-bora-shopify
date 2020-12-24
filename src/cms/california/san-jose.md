@@ -14,4 +14,6 @@ stores:
     address: 777 Story Road
   - address: 5095 Almaden Expressway
     name: Walmart - COMING SOON
+  - name: Nob Hill Foods
+    address: 6061 Snell Avenue
 ---
