@@ -1,5 +1,5 @@
 ---
-city: Sabastapol
+city: Sebastopol
 state: california
 stores:
   - name: Andy's Produce Market
