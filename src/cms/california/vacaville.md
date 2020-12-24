@@ -8,4 +8,6 @@ stores:
     address: 2050 Nut Tree Road
   - address: 941 Alamo Drive
     name: Walmart - COMING SOON
+  - name: Raley's
+    address: 3061 Alamo Drive
 ---
