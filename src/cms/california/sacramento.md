@@ -22,4 +22,6 @@ stores:
     address: 4420 Florin Road
   - name: Bel Air
     address: 4320 Arden Way
+  - name: Bel Air
+    address: 1301 Florin Road
 ---
