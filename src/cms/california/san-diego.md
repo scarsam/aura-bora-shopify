@@ -18,4 +18,6 @@ stores:
     address: 11710 Carmel Mountain Road
   - name: Ralph's Fine Foods
     address: 11875 Carmel Mountain Road
+  - name: Sprouts Farmers Market
+    address: 16415 Paseo del Sur
 ---
