@@ -20,4 +20,6 @@ stores:
     address: 2700 Marconi Avenue
   - name: Walmart - COMING SOON
     address: 4420 Florin Road
+  - name: Bel Air
+    address: 4320 Arden Way
 ---
