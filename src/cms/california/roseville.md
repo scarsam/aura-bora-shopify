@@ -8,4 +8,6 @@ stores:
     address: 1400 Lead Hill Boulevard
   - name: Bel Air
     address: 1039 Sunrise Avenue
+  - name: Bel Air
+    address: 4008 Foothill Boulevard
 ---
