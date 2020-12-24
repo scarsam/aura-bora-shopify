@@ -34,4 +34,6 @@ stores:
     address: 3518 Marconi Avenue
   - name: Raley's
     address: 8391 Folsom Boulevard
+  - name: Raley's
+    address: 4650 Natomas Boulevard
 ---
