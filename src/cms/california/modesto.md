@@ -6,4 +6,6 @@ stores:
     address: 1421 Coffee Road
   - address: 3848 McHenry Avenue
     name: Walmart - COMING SOON
+  - name: O'Brien Market
+    address: 4120 Dale Road Suite H
 ---
