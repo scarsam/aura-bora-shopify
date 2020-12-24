@@ -30,4 +30,6 @@ stores:
     address: 1745 Folsom Street
   - name: Real Food Company
     address: 2140 Polk Street
+  - name: Other Avenues Market
+    address: 3930 Judah Street
 ---
