@@ -24,4 +24,6 @@ stores:
     address: 4320 Arden Way
   - name: Bel Air
     address: 1301 Florin Road
+  - name: Bel Air
+    address: 1540 W El Camino Avenue
 ---
