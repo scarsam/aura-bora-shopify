@@ -10,4 +10,6 @@ stores:
     address: 1039 Sunrise Avenue
   - name: Bel Air
     address: 4008 Foothill Boulevard
+  - name: Raley's
+    address: 4051 Woodcreek Oaks Boulevard
 ---
