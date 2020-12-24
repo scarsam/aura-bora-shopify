@@ -6,4 +6,6 @@ stores:
     address: 560 Montecito Center
   - name: Santa Rosa Community Market
     address: 1899 Mendocino Avenue
+  - name: Oliver's Market Stony Point
+    address: 461 Stony Point Road
 ---
