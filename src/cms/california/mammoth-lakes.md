@@ -6,4 +6,6 @@ stores:
     address: 26 Old Mammoth Road
   - name: Sierra Sundance Whole Foods
     address: 26 Gateway Shopping Center
+  - name: Stellar Brew
+    address: 3280 B Main Street
 ---
