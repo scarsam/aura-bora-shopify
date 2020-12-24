@@ -10,4 +10,6 @@ stores:
     name: Walmart - COMING SOON
   - name: Bel Air
     address: 1885 E Gibson Road
+  - name: Raley's
+    address: 367 W Main Street
 ---
