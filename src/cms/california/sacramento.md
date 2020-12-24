@@ -26,4 +26,6 @@ stores:
     address: 1301 Florin Road
   - name: Bel Air
     address: 1540 W El Camino Avenue
+  - name: Bel Air
+    address: 7465 Rush River Drive
 ---
