@@ -10,4 +10,6 @@ stores:
     address: 4120 Dale Road Suite H
   - name: Raley's
     address: 3430 Tully Road Suite 40
+  - name: Raley's
+    address: 3020 Floyd Avenue Suite 139
 ---
