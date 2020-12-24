@@ -10,4 +10,6 @@ stores:
     address: 8425 Elk Grove Florin
   - name: Bel Air
     address: 9435 Elk Grove Boulevard
+  - name: Raley's
+    address: 4900 Elk Grove Boulevard
 ---
