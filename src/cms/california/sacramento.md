@@ -30,4 +30,8 @@ stores:
     address: 7465 Rush River Drive
   - name: Bel Air
     address: 3250 Arena Boulevard
+  - name: Raley's
+    address: 3518 Marconi Avenue
+  - name: Raley's
+    address: 8391 Folsom Boulevard
 ---
