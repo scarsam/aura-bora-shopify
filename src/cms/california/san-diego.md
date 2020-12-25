@@ -26,4 +26,8 @@ stores:
     address: 5680 Mission Center Road
   - name: Verde Terra
     address: 1605 Pacific Rim Court-Suite A
+  - name: Sprouts Farmers Market
+    address: 8142 Mira Mesa Boulevard
+  - address: 2967 Beech Street
+    name: Rad Habits Juice
 ---
