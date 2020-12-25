@@ -18,4 +18,6 @@ stores:
     address: 8985 Venice Boulevard
   - name: Sprouts Farmers Market
     address: 1302 S La Brea
+  - name: Ralph's Fine Foods
+    address: 5601 Wilshire Boulevard
 ---
