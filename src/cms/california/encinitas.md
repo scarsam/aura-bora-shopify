@@ -6,4 +6,6 @@ stores:
     address: 150 Encinitas Boulevard
   - name: Sprouts Farmers Market
     address: 1327 Encinitas Boulevard
+  - name: Ralph's Fine Foods
+    address: 125 N El Camino Real
 ---
