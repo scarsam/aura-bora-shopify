@@ -36,4 +36,6 @@ stores:
     address: 2200 Mission Street
   - name: Gus Community Market
     address: 1101 4th Street
+  - name: Mainland Market
+    address: 5601 Geary Boulevard
 ---
