@@ -24,4 +24,6 @@ stores:
     address: 3015 Clairmont Drive
   - name: Ralph's Fine Foods
     address: 5680 Mission Center Road
+  - name: Verde Terra
+    address: 1605 Pacific Rim Court-Suite A
 ---
