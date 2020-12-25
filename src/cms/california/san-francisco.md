@@ -34,4 +34,6 @@ stores:
     address: 3930 Judah Street
   - name: Duc Loi Supermarket
     address: 2200 Mission Street
+  - name: Gus Community Market
+    address: 1101 4th Street
 ---
