@@ -8,4 +8,6 @@ stores:
     address: 611 Trancas Street
   - name: Raley's
     address: 217 Soscol Avenue
+  - name: Vista Collina
+    address: 850 Bordeaux Way
 ---
