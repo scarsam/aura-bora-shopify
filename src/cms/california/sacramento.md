@@ -38,4 +38,6 @@ stores:
     address: 4650 Natomas Boulevard
   - address: 2075 Fair Oaks Boulevard Suite 130
     name: Raley's
+  - name: Market 5-ONE-5
+    address: 915 R Street
 ---
