@@ -40,4 +40,6 @@ stores:
     name: Raley's
   - name: Market 5-ONE-5
     address: 915 R Street
+  - name: "Raley's "
+    address: 4700 Freeport Boulevard
 ---
