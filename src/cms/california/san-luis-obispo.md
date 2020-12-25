@@ -6,4 +6,6 @@ stores:
     address: 771 Foothill Boulevard
   - name: Sprouts Farmers Market
     address: 313 Madonna Road Suite A
+  - name: Lassens
+    address: 896 Foothill Boulevard
 ---
