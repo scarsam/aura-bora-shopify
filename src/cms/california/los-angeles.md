@@ -14,4 +14,6 @@ stores:
     address: 1515 Westwood Boulevard
   - name: Rainbow Acres
     address: 13208 W. Washington Boulevard
+  - name: Sprouts Farmers Market
+    address: 8985 Venice Boulevard
 ---
