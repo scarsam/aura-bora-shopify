@@ -36,4 +36,6 @@ stores:
     address: 8391 Folsom Boulevard
   - name: Raley's
     address: 4650 Natomas Boulevard
+  - address: 2075 Fair Oaks Boulevard Suite 130
+    name: Raley's
 ---
