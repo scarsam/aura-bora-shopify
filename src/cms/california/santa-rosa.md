@@ -10,4 +10,6 @@ stores:
     address: 461 Stony Point Road
   - name: Pacific Market
     address: 1465 Town and Country Drive
+  - name: Healthy Surprise
+    address: 1435 N Dutton Avenue
 ---
