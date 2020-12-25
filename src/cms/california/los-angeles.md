@@ -20,4 +20,6 @@ stores:
     address: 1302 S La Brea
   - name: Ralph's Fine Foods
     address: 5601 Wilshire Boulevard
+  - address: 260 S La Brea Avenue
+    name: Ralph's Fine Foods
 ---
