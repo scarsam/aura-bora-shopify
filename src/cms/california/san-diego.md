@@ -22,4 +22,6 @@ stores:
     address: 16415 Paseo del Sur
   - name: Sprouts Farmers Market
     address: 3015 Clairmont Drive
+  - name: Ralph's Fine Foods
+    address: 5680 Mission Center Road
 ---
