@@ -20,4 +20,6 @@ stores:
     address: 11875 Carmel Mountain Road
   - name: Sprouts Farmers Market
     address: 16415 Paseo del Sur
+  - name: Sprouts Farmers Market
+    address: 3015 Clairmont Drive
 ---
