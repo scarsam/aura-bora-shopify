@@ -8,4 +8,6 @@ stores:
     address: 1899 Mendocino Avenue
   - name: Oliver's Market Stony Point
     address: 461 Stony Point Road
+  - name: Pacific Market
+    address: 1465 Town and Country Drive
 ---
