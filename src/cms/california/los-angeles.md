@@ -16,4 +16,6 @@ stores:
     address: 13208 W. Washington Boulevard
   - name: Sprouts Farmers Market
     address: 8985 Venice Boulevard
+  - name: Sprouts Farmers Market
+    address: 1302 S La Brea
 ---
