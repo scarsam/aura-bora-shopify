@@ -8,6 +8,6 @@ stores:
     address: 4300 Missouri Flat Road
   - name: Raley's
     address: 166 Placerville Drive
-  - name: Placerville Nat Foods Co-Op
+  - name: Placerville Natural Foods Co-Op
     address: "535 Placerville Drive "
 ---
