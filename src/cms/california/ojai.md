@@ -6,4 +6,6 @@ stores:
     address: 987 W. Ojai Avenue
   - name: Rainbow Bridge Natural Food
     address: 211 E. Matilija Street
+  - name: Hip Vegan
+    address: "201 N Montgomery street "
 ---
