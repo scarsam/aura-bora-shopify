@@ -22,4 +22,6 @@ stores:
     address: 5601 Wilshire Boulevard
   - address: 260 S La Brea Avenue
     name: Ralph's Fine Foods
+  - address: "11727 Olimpic Boulevard "
+    name: Ralph's Fine Foods
 ---
