@@ -26,4 +26,6 @@ stores:
     name: Ralph's Fine Foods
   - name: "Grow The Produce "
     address: 300 S Santa Fe Avenue Suite C
+  - name: "Lassens Los Angeles "
+    address: "2080 Hillhurst Avenue "
 ---
