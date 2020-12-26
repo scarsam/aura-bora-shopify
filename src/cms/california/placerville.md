@@ -9,5 +9,5 @@ stores:
   - name: Raley's
     address: 166 Placerville Drive
   - name: Placerville Nat Foods Coop
-    address: "535 placeville Drive "
+    address: "535 Placeville Drive "
 ---
