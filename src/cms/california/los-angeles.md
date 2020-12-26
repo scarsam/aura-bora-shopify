@@ -25,5 +25,5 @@ stores:
   - address: "11727 Olimpic Boulevard "
     name: Ralph's Fine Foods
   - name: "Grow The Produce "
-    address: 300 S Santa Fe Avenue Ste C
+    address: 300 S Santa Fe Avenue Suite C
 ---
