@@ -38,4 +38,6 @@ stores:
     address: 1101 4th Street
   - name: Mainland Market
     address: 5601 Geary Boulevard
+  - name: "Market on Market "
+    address: "1355 Market Street "
 ---
