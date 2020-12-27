@@ -28,4 +28,8 @@ stores:
     address: 300 S Santa Fe Avenue Suite C
   - name: "Lassens Los Angeles "
     address: "2080 Hillhurst Avenue "
+  - name: "Lassen's Health Foods Echo Pk "
+    address: "1631 W Sunset Boulevard "
+  - name: With Love Community Market
+    address: "1969 S Vermont Avenue "
 ---
