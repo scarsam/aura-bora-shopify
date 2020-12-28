@@ -12,8 +12,4 @@ stores:
     address: 1430 7th Street
   - name: Village Market
     address: 5885 Broadway Terrace
-  - name: Yasai Produce Market
-    address: 6301 College Avenue
-  - name: Piedmont Grocery Co.
-    address: 4038 Piedmont Avenue
 ---
