@@ -8,4 +8,6 @@ stores:
     address: 3101 A Street
   - name: Walmart - COMING SOON
     address: 7405 DeBarr Road
+  - name: City Market Dry
+    address: 900 WEST 13TH
 ---
