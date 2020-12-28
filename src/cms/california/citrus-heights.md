@@ -6,6 +6,4 @@ stores:
     name: Walmart - COMING SOON
   - address: 6197 Sunrise Boulevard
     name: Walmart - COMING SOON
-  - name: Raley's
-    address: 7847 Lichen Drive
 ---
