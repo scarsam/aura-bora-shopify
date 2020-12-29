@@ -10,6 +10,4 @@ stores:
     name: Walmart - COMING SOON
   - name: Walmart - COMING SOON
     address: 10355 Trinity Parkway
-  - name: Raley's
-    address: 4255 E Moranda Lane
 ---
