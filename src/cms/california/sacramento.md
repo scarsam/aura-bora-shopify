@@ -2,10 +2,6 @@
 city: "Sacramento "
 state: california
 stores:
-  - name: The Nailtel
-    address: "2381 Fair Oaks Boulevard #2"
-  - name: Compton's Market
-    address: 4065 McKinley Boulevard
   - name: Market 5-ONE-5
     address: 915 R Street
   - name: Walmart - COMING SOON
@@ -20,26 +16,4 @@ stores:
     address: 2700 Marconi Avenue
   - name: Walmart - COMING SOON
     address: 4420 Florin Road
-  - name: Bel Air
-    address: 4320 Arden Way
-  - name: Bel Air
-    address: 1301 Florin Road
-  - name: Bel Air
-    address: 1540 W El Camino Avenue
-  - name: Bel Air
-    address: 7465 Rush River Drive
-  - name: Bel Air
-    address: 3250 Arena Boulevard
-  - name: Raley's
-    address: 3518 Marconi Avenue
-  - name: Raley's
-    address: 8391 Folsom Boulevard
-  - name: Raley's
-    address: 4650 Natomas Boulevard
-  - address: 2075 Fair Oaks Boulevard Suite 130
-    name: Raley's
-  - name: Market 5-ONE-5
-    address: 915 R Street
-  - name: "Raley's "
-    address: 4700 Freeport Boulevard
 ---
