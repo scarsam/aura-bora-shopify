@@ -24,4 +24,6 @@ stores:
     name: Walmart - COMING SOON
   - name: Walmart - COMING SOON
     address: 5550 E Woodmen Road
+  - name: Wishing U Well
+    address: 885 Elkton Dr
 ---
