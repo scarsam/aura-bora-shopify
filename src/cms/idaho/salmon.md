@@ -2,6 +2,6 @@
 city: Salmon
 state: idaho
 stores:
-  - name: Natures Pantry
+  - name: Nature's Pantry
     address: 401 Main St Ste 1
 ---
