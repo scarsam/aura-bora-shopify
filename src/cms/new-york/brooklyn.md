@@ -14,4 +14,10 @@ stores:
     address: 370-388 Throop Avenue
   - name: Azure Gourmet Inc
     address: 113 Franklin Street
+  - name: Park Slope Co-Operative
+    address: 782 Union Street
+  - name: Fisher's Supermarket
+    address: 805 Franklin Avenue
+  - name: Sunac Natural Food
+    address: 440 Union Avenue
 ---
