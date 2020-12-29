@@ -8,4 +8,6 @@ stores:
     address: 4000 Highway 93 South
   - name: Walmart - COMING SOON
     address: 3555 Mullan Road
+  - name: Missoula Fresh Market on Broadway
+    address: 800 W. Broadway
 ---
