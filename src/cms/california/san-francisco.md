@@ -32,10 +32,6 @@ stores:
     address: 2140 Polk Street
   - name: Other Avenues Market
     address: 3930 Judah Street
-  - name: Duc Loi Supermarket
-    address: 2200 Mission Street
-  - name: Gus Community Market
-    address: 1101 4th Street
   - name: Mainland Market
     address: 5601 Geary Boulevard
   - name: "Market on Market "
