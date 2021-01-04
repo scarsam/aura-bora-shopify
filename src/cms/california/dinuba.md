@@ -2,6 +2,6 @@
 city: Dinuba
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: "Walmart "
     address: 770 W El Monte Way
 ---
