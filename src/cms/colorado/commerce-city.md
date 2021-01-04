@@ -2,6 +2,6 @@
 city: Commerce City
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 5990 Dahlia Street
 ---
