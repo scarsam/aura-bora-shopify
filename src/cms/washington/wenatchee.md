@@ -2,6 +2,6 @@
 city: Wenatchee
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2000 N Wenatchee Avenue
 ---
