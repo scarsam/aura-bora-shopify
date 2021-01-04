@@ -2,6 +2,6 @@
 city: Dixon
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 235 E Dorset Drive
 ---
