@@ -2,6 +2,6 @@
 city: Yreka
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1906 Fort Jones Road
 ---
