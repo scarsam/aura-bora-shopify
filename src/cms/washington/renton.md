@@ -2,6 +2,6 @@
 city: Renton
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 743 Rainier Avenue S
 ---
