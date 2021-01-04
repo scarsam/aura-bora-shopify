@@ -2,6 +2,6 @@
 city: Willows
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 470 N Airport Road
 ---
