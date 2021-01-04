@@ -2,6 +2,6 @@
 city: Klamath Falls
 state: oregon
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 3600 Washburn Way
 ---
