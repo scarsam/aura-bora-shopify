@@ -2,8 +2,8 @@
 city: Spokane Valley
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 15727 E Broadway Avenue
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 5025 E Sprague Avenue
 ---
