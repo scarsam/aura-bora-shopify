@@ -2,6 +2,6 @@
 city: Union City
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 30600 Dyer Street
 ---
