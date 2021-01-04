@@ -2,6 +2,6 @@
 city: Gilroy
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 7150 Camino Arroyo
 ---
