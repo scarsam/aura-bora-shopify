@@ -2,6 +2,6 @@
 city: Antelope
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 7901 Watt Avenue
 ---
