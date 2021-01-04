@@ -2,6 +2,6 @@
 city: Turlock
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2480 Geer Road
 ---
