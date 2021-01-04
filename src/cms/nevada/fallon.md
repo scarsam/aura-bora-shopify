@@ -2,6 +2,6 @@
 city: Fallon
 state: nevada
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2333 Reno Highway
 ---
