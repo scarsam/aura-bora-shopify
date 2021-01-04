@@ -2,6 +2,6 @@
 city: Folsom
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1018 Riley Street
 ---
