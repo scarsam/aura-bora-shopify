@@ -2,8 +2,6 @@
 city: Suisun City
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 350 Walters Road
-  - name: Raley's
-    address: 270 Sunset Avenue
 ---
