@@ -2,6 +2,6 @@
 city: Merced
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 3055 Loughborough Drive
 ---
