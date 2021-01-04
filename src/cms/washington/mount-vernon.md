@@ -2,6 +2,6 @@
 city: Mount Vernon
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2301 Freeway Drive
 ---
