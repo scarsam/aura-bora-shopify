@@ -2,6 +2,6 @@
 city: West Sacramento
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 755 Riverpoint Court
 ---
