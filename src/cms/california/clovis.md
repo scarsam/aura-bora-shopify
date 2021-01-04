@@ -2,8 +2,8 @@
 city: Clovis
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: "Walmart "
     address: 1185 Herndon Avenue
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1830 Shaw Avenue
 ---
