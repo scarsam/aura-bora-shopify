@@ -26,7 +26,7 @@ const Results = ({
         className={`col-12 col-md-6 ${
           city?.stores.length - 1 === index ? '' : 'padding-bottom-lg-20px'
         }`}
-        key={name}
+        key={index}
       >
         <Store key={name} name={name} address={address} />
       </li>
@@ -42,10 +42,10 @@ const Results = ({
       return <h3 className="text-center">No stores in this state</h3>
     }
 
-    return cities.map(({ city }) => (
+    return cities.map(({ city }, index) => (
       <li
         className="col-12 col-md-6"
-        key={city}
+        key={index}
         onClick={() => setSelectedCity(city)}
       >
         <City city={city} />
