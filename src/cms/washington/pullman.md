@@ -2,6 +2,6 @@
 city: Pullman
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1690 SE Harvest Drive
 ---
