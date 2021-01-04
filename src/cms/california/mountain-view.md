@@ -2,6 +2,6 @@
 city: Mountain View
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 600 Showers Drive
 ---
