@@ -19,13 +19,13 @@ stores:
   - name: Whole Foods Tamarac
     address: 7400 East Hampden Avenue
   - address: 5141 Chambers Road
-    name: Walmart - COMING SOON
+    name: Walmart
   - address: 1442 S Parker Road
-    name: Walmart - COMING SOON
-  - name: Walmart - COMING SOON
+    name: Walmart
+  - name: Walmart
     address: 7800 Smith Road
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 9400 E Hampden Avenue
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2770 W Evans Avenue
 ---
