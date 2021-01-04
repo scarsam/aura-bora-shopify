@@ -2,6 +2,6 @@
 city: Aberdeen
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 909 E Wishkah Street
 ---
