@@ -2,6 +2,6 @@
 city: Bellingham
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 4420 Meridian Street
 ---
