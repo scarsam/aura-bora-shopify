@@ -2,6 +2,6 @@
 city: Parker
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 11101 S Parker Road
 ---
