@@ -2,6 +2,6 @@
 city: Auburn
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 762 Outlet Collection Way
 ---
