@@ -2,6 +2,6 @@
 city: Colby
 state: kansas
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 115 W Willow Street
 ---
