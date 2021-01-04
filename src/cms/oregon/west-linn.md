@@ -2,6 +2,6 @@
 city: West Linn
 state: oregon
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 19133 Willamette Drive
 ---
