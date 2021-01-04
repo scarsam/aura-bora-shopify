@@ -2,6 +2,6 @@
 city: Yuba City
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1150 Harter Road
 ---
