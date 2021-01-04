@@ -2,6 +2,6 @@
 city: Monroe
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 19191 N Kelsey Street
 ---
