@@ -2,6 +2,6 @@
 city: Wasilla
 state: alaska
 stores:
-  - name: Walmart - COMING SOON
+  - name: "Walmart "
     address: 1350 S Seward Meridian Parkway
 ---
