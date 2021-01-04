@@ -2,6 +2,6 @@
 city: Arvada
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 9400 Ralston Road
 ---
