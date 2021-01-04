@@ -2,6 +2,6 @@
 city: Red Bluff
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 608 Luther Road
 ---
