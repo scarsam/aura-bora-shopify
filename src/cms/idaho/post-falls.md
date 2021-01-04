@@ -2,8 +2,8 @@
 city: Post Falls
 state: idaho
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 3050 E Mullan Avenue
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 6405 W Pointe Parkway
 ---
