@@ -2,6 +2,6 @@
 city: Sidney
 state: nebraska
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 3001 Silverberg Drive
 ---
