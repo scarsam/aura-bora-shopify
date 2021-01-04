@@ -2,6 +2,6 @@
 city: Riverton
 state: wyoming
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: "1733 N Federal Boulevard "
 ---
