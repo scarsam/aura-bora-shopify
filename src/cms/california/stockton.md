@@ -4,10 +4,10 @@ state: california
 stores:
   - name: Artesian Natural Foods
     address: 145 Lincoln Center
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 3223 E Hammer Lane
   - address: 1189 E March Lane
-    name: Walmart - COMING SOON
-  - name: Walmart - COMING SOON
+    name: Walmart
+  - name: Walmart
     address: 10355 Trinity Parkway
 ---
