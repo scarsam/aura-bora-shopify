@@ -2,6 +2,6 @@
 city: American Canyon
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 7011 Main Street
 ---
