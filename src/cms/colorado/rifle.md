@@ -2,6 +2,6 @@
 city: Rifle
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1000 Airport Road
 ---
