@@ -2,6 +2,6 @@
 city: Redding
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1515 Dana Drive
 ---
