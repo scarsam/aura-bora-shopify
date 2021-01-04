@@ -2,8 +2,8 @@
 city: Lacey
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1401 Galaxy Drive NE
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 5110 Yelm Highway
 ---
