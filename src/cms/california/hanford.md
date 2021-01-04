@@ -2,6 +2,6 @@
 city: Hanford
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 250 S 12TH Avenue
 ---
