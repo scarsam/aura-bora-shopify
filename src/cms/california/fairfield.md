@@ -2,6 +2,6 @@
 city: Fairfield
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2701 N Texas Street
 ---
