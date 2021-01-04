@@ -2,6 +2,6 @@
 city: Lakeside
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 5957 W. 44th Avenue
 ---
