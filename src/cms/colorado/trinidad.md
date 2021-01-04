@@ -2,6 +2,6 @@
 city: Trinidad
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2921 Toupal Drive
 ---
