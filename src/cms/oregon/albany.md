@@ -2,6 +2,6 @@
 city: Albany
 state: oregon
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1330 Goldfish Farm Road SE
 ---
