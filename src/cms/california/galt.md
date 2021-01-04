@@ -2,6 +2,6 @@
 city: Galt
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 10470 Twin Cities Road
 ---
