@@ -2,6 +2,6 @@
 city: Fort Morgan
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1300 Barlow Road
 ---
