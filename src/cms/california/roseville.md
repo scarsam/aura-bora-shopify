@@ -2,8 +2,8 @@
 city: Roseville
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 900 Pleasant Grove Boulevard
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1400 Lead Hill Boulevard
 ---
