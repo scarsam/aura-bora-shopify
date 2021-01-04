@@ -2,6 +2,6 @@
 city: Pleasanton
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 3112 Santa Rita Road
 ---
