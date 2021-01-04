@@ -2,6 +2,6 @@
 city: Hood River
 state: oregon
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2700 Wasco Street
 ---
