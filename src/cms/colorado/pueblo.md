@@ -2,10 +2,10 @@
 city: Pueblo
 state: colorado
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 4200 Dillon Drive
   - address: 4080 W Northern Avenue
-    name: Walmart - COMING SOON
-  - name: Walmart - COMING SOON
+    name: Walmart
+  - name: Walmart
     address: 2730 S. Prairie Avenue
 ---
