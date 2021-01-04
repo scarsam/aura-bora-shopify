@@ -2,6 +2,6 @@
 city: Sherwood
 state: oregon
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 21320 SW Langer Farms Parkway
 ---
