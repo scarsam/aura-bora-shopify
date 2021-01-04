@@ -2,6 +2,6 @@
 city: Gardnerville
 state: nevada
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1511 Grant Street
 ---
