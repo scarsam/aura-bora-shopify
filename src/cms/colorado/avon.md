@@ -4,6 +4,6 @@ state: colorado
 stores:
   - name: The Market At Vail
     address: 450 E Lionhead Circle
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 171 Yoder Avenue
 ---
