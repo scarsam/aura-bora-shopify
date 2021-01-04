@@ -2,6 +2,6 @@
 city: Carmichael
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: "Walmart "
     address: 6005 Madison Avenue
 ---
