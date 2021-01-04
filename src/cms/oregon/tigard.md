@@ -2,6 +2,6 @@
 city: Tigard
 state: oregon
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 7600 SW Dartmouth Street
 ---
