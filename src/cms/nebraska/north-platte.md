@@ -2,6 +2,6 @@
 city: North Platte
 state: nebraska
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1401 S Dewey Street
 ---
