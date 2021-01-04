@@ -2,6 +2,6 @@
 city: Oroville
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 465 Cal Oak Road
 ---
