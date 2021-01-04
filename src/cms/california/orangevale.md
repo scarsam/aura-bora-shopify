@@ -2,6 +2,6 @@
 city: Orangevale
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 8961 Greenback Lane
 ---
