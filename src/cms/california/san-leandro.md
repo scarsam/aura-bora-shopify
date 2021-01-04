@@ -2,6 +2,6 @@
 city: San Leandro
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1919 Davis Street
 ---
