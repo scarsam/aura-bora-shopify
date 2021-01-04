@@ -2,6 +2,6 @@
 city: Omak
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 902 Engh Road
 ---
