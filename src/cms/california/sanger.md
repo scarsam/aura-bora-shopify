@@ -2,6 +2,6 @@
 city: Sanger
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 2761 Jensen Avenue
 ---
