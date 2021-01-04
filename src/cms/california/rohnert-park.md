@@ -2,6 +2,6 @@
 city: Rohnert Park
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 901 Golf Course Drive
 ---
