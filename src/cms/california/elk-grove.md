@@ -2,8 +2,8 @@
 city: Elk Grove
 state: california
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 8465 Elk Grove Boulevard
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 8455 Elk Grove Boulevard
 ---
