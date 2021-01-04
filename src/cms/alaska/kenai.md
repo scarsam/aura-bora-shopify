@@ -2,6 +2,6 @@
 city: Kenai
 state: alaska
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 10096 Kenai Spur Highway
 ---
