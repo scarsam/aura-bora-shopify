@@ -4,6 +4,6 @@ state: california
 stores:
   - name: Eureka Natural Foods
     address: 1450 Broadway Street
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 3300 Broadway Bayshore Mall
 ---
