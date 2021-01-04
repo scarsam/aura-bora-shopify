@@ -2,6 +2,6 @@
 city: Ponderay
 state: idaho
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 476999 Highway 95
 ---
