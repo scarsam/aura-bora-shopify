@@ -2,6 +2,6 @@
 city: Pasco
 state: washington
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 4820 N Road 68
 ---
