@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="col-md-8 col-lg-7 offset-lg-1 padding-top-30px padding-top-md-none d-flex flex-column flex-sm-row">
               <div className="content flex-fill">
                 <p className="margin-bottom-none padding-bottom-lg-15px d-block body-4 font-barlow padding-top-5px">
-                  <strong>Let's be </strong>rose<strong>buds</strong>
+                  <strong>Let's be </strong>buds
                 </p>
                 <p className="margin-bottom-25px body-5">
                   We’ll send you
