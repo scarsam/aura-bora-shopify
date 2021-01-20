@@ -13,3 +13,15 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
     },
   })
 }
+
+exports.createPages = ({ actions }) => {
+  const { createRedirect } = actions
+
+  createRedirect({
+    fromPath: `/`,
+    toPath: `https://shop.aurabora.com/`,
+    redirectInBrowser: true,
+    force: true,
+    isPermanent: true,
+  })
+}

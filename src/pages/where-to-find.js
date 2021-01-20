@@ -89,10 +89,21 @@ const WhereToFind = ({ data }) => {
                 <p className="body-2">
                   Looking for Aura Bora in the wild?{' '}
                   <span className="d-md-none">
-                    Search for your state below.
+                    Search for your state below.{' '}
                   </span>
                   <span className="d-none d-md-block">
                     Click on your state below.
+                  </span>
+                  <span className="d-inline">
+                    Or request a new store{' '}
+                    <a
+                      href="https://forms.westock.io/brand/877"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      here
+                    </a>
+                    .
                   </span>
                 </p>
               </div>
