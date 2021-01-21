@@ -4,15 +4,14 @@ import LoadingAnimation from 'images/loading-animation.inline.svg'
 const IndexPage = () => {
   return (
     <div
-      className="mood"
       style={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '90vh',
+        height: '100vh',
       }}
     >
-      <LoadingAnimation className="loading-animation margin-top-20px" />
+      <LoadingAnimation />
     </div>
   )
 }
