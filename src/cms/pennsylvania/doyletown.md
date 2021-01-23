@@ -1,5 +1,5 @@
 ---
-city: Doyletown
+city: Doylestown
 state: pennsylvania
 stores:
   - name: Peace Valley Lavender Farms
