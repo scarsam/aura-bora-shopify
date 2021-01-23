@@ -1,5 +1,5 @@
 ---
-city: Fairefield
+city: Fairfield
 state: ohio
 stores:
   - name: Jungle Jim's Farmer Market
