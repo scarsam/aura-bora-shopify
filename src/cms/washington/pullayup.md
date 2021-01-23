@@ -1,5 +1,5 @@
 ---
-city: Pullayup
+city: Puyallup
 state: washington
 stores:
   - address: 310 31st Avenue SE
