@@ -2,6 +2,6 @@
 city: Abilene
 state: texas
 stores:
-  - name: Vitamins Plus
-    address: "2550 Barrow Street                         "
+  - name: Life Nutrition Products
+    address: 901 T and P Lane B
 ---
