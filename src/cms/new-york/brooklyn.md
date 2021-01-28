@@ -12,7 +12,7 @@ stores:
     address: "805 Franklin Avenue "
   - name: Azure Gourmet Inc
     address: 113 Franklin Street
-  - name: Park Slope Co-Operative
+  - name: Park Slope Food Coop
     address: 782 Union Street
   - name: Fisher's Supermarket
     address: 805 Franklin Avenue
@@ -24,6 +24,4 @@ stores:
     address: 1426 Bedford Avenue
   - name: Eric's Health Food Shoppe
     address: 508 Brighton Beach Avenue
-  - name: Park Slope Food Coop
-    address: 782 Union Street
 ---
