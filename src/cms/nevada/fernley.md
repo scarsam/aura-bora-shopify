@@ -2,6 +2,6 @@
 city: Fernley
 state: nevada
 stores:
-  - name: Walmart - COMING SOON
+  - name: Walmart
     address: 1550 Newlands Drive E
 ---
