@@ -8,4 +8,6 @@ stores:
     name: Walmart
   - address: 1221 S Hayford Road
     name: Walmart
+  - name: Rocket Market
+    address: 726 E 43rd Avenue
 ---
