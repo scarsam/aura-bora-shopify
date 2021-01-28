@@ -1,5 +1,5 @@
 ---
-city: Sheperdstown
+city: Shepherdstown
 state: west virginia
 stores:
   - name: Community Garden Market
