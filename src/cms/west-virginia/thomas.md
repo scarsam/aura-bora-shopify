@@ -2,6 +2,6 @@
 city: Thomas
 state: west virginia
 stores:
-  - name: Tip Top Coffee
+  - name: TipTop Coffee
     address: 216 East Avenue
 ---
