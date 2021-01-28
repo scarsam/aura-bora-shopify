@@ -2,6 +2,6 @@
 city: Elkins
 state: west virginia
 stores:
-  - name: Tip Top Coffee
+  - name: TipTop Coffee
     address: 125 Third Street
 ---
