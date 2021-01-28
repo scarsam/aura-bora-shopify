@@ -1,9 +1,0 @@
----
-city: "Bradley "
-state: illinois
-stores:
-  - name: Kankakee Natural Foods Infra
-    address: 1035 Mulligan Drive
-  - name: Meijer
-    address: 990 North Kinzie Avenue
----
