@@ -22,4 +22,6 @@ stores:
     address: "49 Bogart St #1"
   - name: Brooklyn Born Mini Market
     address: 1426 Bedford Avenue
+  - name: Eric's Health Food Shoppe
+    address: 508 Brighton Beach Avenue
 ---
