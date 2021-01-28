@@ -6,4 +6,6 @@ stores:
     name: Walmart
   - name: Walmart
     address: 1123 Hayden Meadows Drive
+  - name: Cherry Sprout Produce
+    address: 722 N. Sumner Street
 ---
