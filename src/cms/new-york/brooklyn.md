@@ -20,4 +20,6 @@ stores:
     address: 440 Union Avenue
   - name: Brooklyn's Natural
     address: "49 Bogart St #1"
+  - name: Brooklyn Born Mini Market
+    address: 1426 Bedford Avenue
 ---
