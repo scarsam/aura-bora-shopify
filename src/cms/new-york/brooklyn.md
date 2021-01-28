@@ -10,8 +10,6 @@ stores:
     address: "1701 Church Avenue "
   - name: Bob & Betty's Gourmet
     address: "805 Franklin Avenue "
-  - name: Healthy Organic Market
-    address: 370-388 Throop Avenue
   - name: Azure Gourmet Inc
     address: 113 Franklin Street
   - name: Park Slope Co-Operative
@@ -20,4 +18,6 @@ stores:
     address: 805 Franklin Avenue
   - name: Sunac Natural Food
     address: 440 Union Avenue
+  - name: Brooklyn's Natural
+    address: "49 Bogart St #1"
 ---
