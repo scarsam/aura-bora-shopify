@@ -10,8 +10,8 @@ stores:
     address: 408 East 43rd Street
   - name: Fresh Plus Grocery
     address: 2917 West Anderson Lane
-  - name: Sunrise Minimart Inc
-    address: 1809 West Anderson Lane
-  - name: Live Oak Market
-    address: 4410 Manchaca Road
+  - name: Mr. Natural
+    address: 1901 E. Cesar Chavez Street
+  - name: Woody's Country Market
+    address: 100 Farm to Market 1626
 ---
