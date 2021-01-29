@@ -2,6 +2,6 @@
 city: East Grand Forks
 state: minnesota
 stores:
-  - name: "Hugo's #5 Natural"
+  - name: "Hugo's "
     address: 306 14th Street NE
 ---
