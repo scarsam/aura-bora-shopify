@@ -1,5 +1,5 @@
 ---
-city: Shelby
+city: Shelby Township
 state: michigan
 stores:
   - name: Better Health
