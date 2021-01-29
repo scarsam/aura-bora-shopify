@@ -1,7 +1,7 @@
 ---
-city: Pipestone
+city: Pequot Lakes
 state: minnesota
 stores:
-  - name: Coborn's
-    address: 1106 8th Street SW
+  - name: Ideal Green Market Cooperative
+    address: 34988 Co Rd 39
 ---
