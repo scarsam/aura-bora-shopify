@@ -22,4 +22,6 @@ stores:
     address: 9400 E Hampden Avenue
   - name: Walmart
     address: 2770 W Evans Avenue
+  - name: Nooch Vegan Market
+    address: 10 E Ellsworth Avenue
 ---
