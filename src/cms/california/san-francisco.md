@@ -14,4 +14,6 @@ stores:
     address: 2140 Polk Street
   - name: Mainland Market
     address: 5601 Geary Boulevard
+  - name: Cal-Mart
+    address: 3585 California Street
 ---
