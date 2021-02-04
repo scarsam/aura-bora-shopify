@@ -6,4 +6,6 @@ stores:
     address: 2080 Hillhurst
   - name: Vicente Foods
     address: 12027 San Vicente Boulevard
+  - name: Aviator Nation
+    address: 1224 Abbot Kinney Boulevard
 ---
