@@ -10,4 +10,6 @@ stores:
     address: 7405 DeBarr Road
   - name: City Market Dry
     address: 900 WEST 13TH
+  - name: Safeway
+    address: 1501 Huffman Rd
 ---
