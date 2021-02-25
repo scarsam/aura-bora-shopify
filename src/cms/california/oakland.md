@@ -14,4 +14,6 @@ stores:
     address: 1440 Leimert Blvd
   - name: Piedmont Grocery
     address: 4038 Piedmont Avenue
+  - name: Howden Market
+    address: 1630 Webster Street
 ---
