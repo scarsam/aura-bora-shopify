@@ -16,4 +16,8 @@ stores:
     address: 5601 Geary Boulevard
   - name: Cal-Mart
     address: 3585 California Street
+  - name: Casa Guadalupe Supermarket
+    address: 2999 Mission Street
+  - name: The Epicurean Trader
+    address: 465 Hayes Street
 ---
