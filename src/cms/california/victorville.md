@@ -2,6 +2,6 @@
 city: Victorville
 state: california
 stores:
-  - name: BJ's Restaurant & Brewhouse
-    address: 11600 Amargosa Road
+  - name: B J's Health Foods
+    address: 12125 Balsam Road
 ---
