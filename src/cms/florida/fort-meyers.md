@@ -1,5 +1,5 @@
 ---
-city: Fort Meyers
+city: Fort Myers
 state: florida
 stores:
   - name: Mother Earth Natural Foods
