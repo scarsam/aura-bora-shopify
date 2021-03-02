@@ -10,6 +10,6 @@ stores:
     name: Walmart
   - name: Walmart
     address: 10355 Trinity Parkway
-  - address: 1906 PACIFIC AVE
+  - address: 1906 Pacific Ave
     name: Green's Nutrition
 ---
