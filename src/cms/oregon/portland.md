@@ -8,4 +8,6 @@ stores:
     address: 1123 Hayden Meadows Drive
   - name: Cherry Sprout Produce
     address: 722 N. Sumner Street
+  - name: Food Fight Grocery
+    address: 11155 NE Halsey Street
 ---
