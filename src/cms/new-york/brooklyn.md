@@ -24,4 +24,6 @@ stores:
     address: 1426 Bedford Avenue
   - name: Eric's Health Food Shoppe
     address: 508 Brighton Beach Avenue
+  - name: Feel Rite
+    address: 1445 Niagara Falls Blvd.
 ---
