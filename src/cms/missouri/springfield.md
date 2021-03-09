@@ -8,4 +8,6 @@ stores:
     address: 3530 East Sunshine Street
   - name: Mama Jean's Natural Market
     address: 1727 S. Campbell Avenue
+  - name: Harter House
+    address: 1625 S Eastgate Avenue
 ---
