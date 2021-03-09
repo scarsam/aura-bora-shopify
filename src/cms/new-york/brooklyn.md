@@ -26,4 +26,6 @@ stores:
     address: 508 Brighton Beach Avenue
   - name: Feel Rite
     address: 1445 Niagara Falls Blvd.
+  - name: Diksha
+    address: 1426 Bedford Avenue
 ---
