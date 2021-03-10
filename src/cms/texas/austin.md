@@ -16,4 +16,6 @@ stores:
     address: 100 Farm to Market 1626
   - name: Quality Seafood
     address: 5621 Airport Blvd.
+  - name: Live Oak Market
+    address: 4410 Menchaca Road
 ---
