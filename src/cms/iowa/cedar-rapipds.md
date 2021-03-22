@@ -1,5 +1,5 @@
 ---
-city: Cedar Rapipds
+city: Cedar Rapids
 state: iowa
 stores:
   - name: Benz Beverage Depot
