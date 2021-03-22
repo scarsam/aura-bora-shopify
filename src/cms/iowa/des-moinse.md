@@ -1,5 +1,5 @@
 ---
-city: Des Moinse
+city: Des Moines
 state: iowa
 stores:
   - name: Campbell's Nutrition
