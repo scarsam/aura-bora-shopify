@@ -8,4 +8,6 @@ stores:
     name: Walmart
   - name: Walmart
     address: 2730 S. Prairie Avenue
+  - name: Mesa LaGree's
+    address: 27050 US-50 BUS Unit A1
 ---
