@@ -20,4 +20,10 @@ stores:
     address: 2999 Mission Street
   - name: The Epicurean Trader
     address: 465 Hayes Street
+  - name: Le Beau Market
+    address: 1263 Leavenworth Street
+  - name: NoPa Liquor and Deli
+    address: 1601 Fulton Street
+  - name: Bayside Market
+    address: 120 Brannan Street
 ---
