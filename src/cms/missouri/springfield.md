@@ -10,4 +10,6 @@ stores:
     address: 1727 S. Campbell Avenue
   - name: Harter House
     address: 1625 S Eastgate Avenue
+  - name: Schuchmann Meat Company
+    address: 4406 S Campbell Avenue
 ---
