@@ -10,4 +10,6 @@ stores:
     address: 12702 Race Track Road
   - name: Rollin' Oats Market & Cafe
     address: 1021 N Macdill Avenue
+  - name: Palma Ceia Village Health Market
+    address: "3225 S MacDill Avenue #123"
 ---
