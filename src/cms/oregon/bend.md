@@ -6,4 +6,6 @@ stores:
     name: Walmart
   - name: Newport Avenue Market
     address: 1121 Newport Avenue
+  - name: Food 4 Less
+    address: 63455 N Highway 97
 ---
