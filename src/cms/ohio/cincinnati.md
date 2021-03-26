@@ -8,4 +8,6 @@ stores:
     address: 4450 Eastgate South Drive
   - name: Susan's Natural World
     address: 8315 Beechmont Avenue
+  - name: Country Fresh
+    address: 8425 Vine Street
 ---
