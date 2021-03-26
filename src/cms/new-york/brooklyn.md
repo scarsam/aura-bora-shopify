@@ -28,4 +28,6 @@ stores:
     address: 1445 Niagara Falls Blvd.
   - name: Diksha
     address: 1426 Bedford Avenue
+  - name: Homeland Food Market
+    address: 307 Stuyvesant Avenue
 ---
