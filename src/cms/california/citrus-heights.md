@@ -6,4 +6,6 @@ stores:
     name: "Walmart "
   - address: 6197 Sunrise Boulevard
     name: "Walmart "
+  - name: Elliot's Natural Foods
+    address: 8063 Greenback Lane
 ---
