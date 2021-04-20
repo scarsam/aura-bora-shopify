@@ -26,4 +26,8 @@ stores:
     address: 1601 Fulton Street
   - name: Bayside Market
     address: 120 Brannan Street
+  - name: Green Earth
+    address: 860 Divisadero Street
+  - name: Santa Clara Natural Organic Market
+    address: 798 Haight Street
 ---
