@@ -10,4 +10,10 @@ stores:
     address: 1224 Abbot Kinney Boulevard
   - name: Jayde's Market
     address: 2964 Beverly Glen Circle
+  - name: Mickey Fine
+    address: 10250 Santa Monica Blvd.
+  - name: The York Stop Market
+    address: 5941 York Blvd.
+  - name: Pantry LA
+    address: 8336 Melrose Avenue
 ---
