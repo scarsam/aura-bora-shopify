@@ -10,4 +10,6 @@ stores:
     address: 722 N. Sumner Street
   - name: Food Fight Grocery
     address: 11155 NE Halsey Street
+  - name: Barbur World Foods
+    address: 9845 SW Barbur Blvd.
 ---
