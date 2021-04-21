@@ -14,4 +14,8 @@ stores:
     address: 777 Story Road
   - address: 5095 Almaden Expressway
     name: Walmart
+  - name: Zanotto's Market
+    address: 1520 Southwest Expressway
+  - name: Zanotto's Willow Glen
+    address: 1421 Foxworthy Avenue
 ---
