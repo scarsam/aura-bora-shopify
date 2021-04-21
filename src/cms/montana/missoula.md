@@ -10,4 +10,6 @@ stores:
     address: 4000 Highway 93 South
   - name: Walmart
     address: 3555 Mullan Road
+  - name: Bridge Pizza
+    address: 515 S. Higgins
 ---
