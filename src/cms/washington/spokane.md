@@ -10,4 +10,6 @@ stores:
     name: Walmart
   - name: Rocket Market
     address: 726 E 43rd Avenue
+  - name: Main Market Co-Op
+    address: 44 W. Main
 ---
