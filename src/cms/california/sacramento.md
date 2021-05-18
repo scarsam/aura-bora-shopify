@@ -18,4 +18,6 @@ stores:
     address: 4420 Florin Road
   - name: Sprouts Farmers Market
     address: 4408 Del Rio Road
+  - name: Sprouts Farmers Market
+    address: 2735 Marconi Avenue
 ---
