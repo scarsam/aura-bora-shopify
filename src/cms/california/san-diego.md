@@ -8,4 +8,10 @@ stores:
     address: 1251 University Avenue
   - name: Sprouts Farmers Market
     address: 3358 Governor Drive
+  - name: Sprouts Farmers Market
+    address: 1260 Garnet Avenue
+  - name: Sprouts Farmers Market
+    address: 3315 Rosecrans Street
+  - name: Sprouts Farmers Market
+    address: 3015 Clairemont Avenue, (Clairemont)
 ---
