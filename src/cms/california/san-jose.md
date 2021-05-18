@@ -18,4 +18,12 @@ stores:
     address: 1520 Southwest Expressway
   - name: Zanotto's Willow Glen
     address: 1421 Foxworthy Avenue
+  - name: Sprouts Farmers Market
+    address: 5205 Prospect Road
+  - name: Sprouts Farmers Market
+    address: 1130 Branham Lane
+  - name: Sprouts Farmers Market
+    address: 1028 E. Brokaw Road
+  - name: Sprouts Farmers Market
+    address: 1771 E Capitol Expressway
 ---
