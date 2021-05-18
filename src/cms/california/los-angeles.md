@@ -16,4 +16,12 @@ stores:
     address: 5941 York Blvd.
   - name: Pantry LA
     address: 8336 Melrose Avenue
+  - name: Sprouts Farmers Market
+    address: 1751 Westwood Blvd.
+  - name: Sprouts Farmers Market
+    address: 915 N La Brea Avenue
+  - name: Sprouts Farmers Market
+    address: 8985 Venice Blvd.
+  - name: Sprouts Farmers Market
+    address: 1302 S. La Brea Avenue (San Vicente)
 ---
