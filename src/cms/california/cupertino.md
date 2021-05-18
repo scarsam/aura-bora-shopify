@@ -2,6 +2,6 @@
 city: Cupertino
 state: california
 stores:
-  - name: Sprouts
+  - name: Sprouts Farmers Market
     address: 20558 Stevens Creek Blvd
 ---
