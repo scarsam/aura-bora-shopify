@@ -16,4 +16,6 @@ stores:
     address: 2700 Marconi Avenue
   - name: Walmart
     address: 4420 Florin Road
+  - name: Sprouts Farmers Market
+    address: 4408 Del Rio Road
 ---
