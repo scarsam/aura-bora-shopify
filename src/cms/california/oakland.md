@@ -16,4 +16,6 @@ stores:
     address: 4038 Piedmont Avenue
   - name: Howden Market
     address: 1630 Webster Street
+  - name: Sprouts Farmers Market
+    address: 3035 Broadway
 ---
