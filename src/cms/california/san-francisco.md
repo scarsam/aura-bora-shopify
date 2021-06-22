@@ -17,7 +17,7 @@ stores:
   - name: Cal-Mart
     address: 3585 California Street
   - name: Casa Guadalupe Supermarket
-    address: 2999 Mission Street
+    address: 2909 Mission Street
   - name: The Epicurean Trader
     address: 465 Hayes Street
   - name: Le Beau Market
@@ -30,4 +30,10 @@ stores:
     address: 860 Divisadero Street
   - name: Santa Clara Natural Organic Market
     address: 798 Haight Street
+  - name: Harvest Urban Market
+    address: 191 8th Street
+  - name: The Epicurean Trader
+    address: 2200 JERROLD AVENUE
+  - name: YMB Alpha Retail
+    address: 3100 16TH STREET
 ---
