@@ -2,6 +2,6 @@
 city: Hermosa Beach
 state: california
 stores:
-  - name: Lazy Acres
-    address: 2510 CA-1
+  - name: "Lazy Acres #26"
+    address: 2510 PACIFIC COAST HWY
 ---
