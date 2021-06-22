@@ -14,4 +14,10 @@ stores:
     address: 3315 Rosecrans Street
   - name: Sprouts Farmers Market
     address: 3015 Clairemont Avenue, (Clairemont)
+  - name: "Bristol Farms #12"
+    address: 8510 Genesee Ave
+  - name: Liv Marketplace
+    address: 3930 FIFTH AVENUE
+  - name: Sprouts Farmers Market
+    address: 4175 Park Blvd.
 ---
