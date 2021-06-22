@@ -24,4 +24,16 @@ stores:
     address: 8985 Venice Blvd.
   - name: Sprouts Farmers Market
     address: 1302 S. La Brea Avenue (San Vicente)
+  - name: "Bristol Farms #15"
+    address: 1515 Westwood Blvd
+  - name: Mikey Fine
+    address: 1925 CENTURY PARK E
+  - name: Powered Ventures Inc.
+    address: 610 LEVERING AVE
+  - name: Rainbow Acres
+    address: 13208 Washington Blvd
+  - name: Cosi PBC Canteen
+    address: 1404 NORTH CATALINA
+  - name: La Tropicana Market
+    address: 5200 MONTE VISTA ST
 ---
