@@ -26,4 +26,6 @@ stores:
     address: 1028 E. Brokaw Road
   - name: Sprouts Farmers Market
     address: 1771 E Capitol Expressway
+  - name: "Lunardi's Market #4"
+    address: 4650 MERIDIAN AVENUE
 ---
