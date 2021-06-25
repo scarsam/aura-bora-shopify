@@ -5,5 +5,5 @@ stores:
   - name: Florida Health Foods
     address: 7648 Lem Turner Road
   - name: Native Sun Natural Foods
-    address: 522 Fleming Street - Jacksonville Beach
+    address: 1585 3rd St N - Jacksonville Beach
 ---
