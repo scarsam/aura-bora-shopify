@@ -24,4 +24,6 @@ stores:
     address: 2770 W Evans Avenue
   - name: Nooch Vegan Market
     address: 10 E Ellsworth Avenue
+  - name: Capitol Market
+    address: 1300 N GRANT STREET
 ---
