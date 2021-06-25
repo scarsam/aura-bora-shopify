@@ -8,6 +8,6 @@ stores:
     address: 660 Whitlock Ave NW
   - name: Nuts 'n Berries
     address: 4274 Peachtree Road
-  - name: Clean It Up Foods
+  - name: Nuts 'n Berries
     address: 2118 NORTH DECATUR ROAD
 ---
