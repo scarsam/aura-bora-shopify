@@ -6,4 +6,6 @@ stores:
     address: 4001 Mill Street
   - name: Nature's Own Health Foods
     address: 310 E 5th Street
+  - name: Nature's Own Health Foods
+    address: 1020 WESTPORT ROAD
 ---
