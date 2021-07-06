@@ -10,4 +10,6 @@ stores:
     address: 8315 Beechmont Avenue
   - name: Country Fresh
     address: 8425 Vine Street
+  - name: Fresh Thyme Farmers Market
+    address: 11349 Montgomery Road
 ---
