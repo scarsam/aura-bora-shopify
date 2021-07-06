@@ -30,4 +30,10 @@ stores:
     address: 1426 Bedford Avenue
   - name: Homeland Food Market
     address: 307 Stuyvesant Avenue
+  - name: Organic Fresh Market
+    address: 1440 Broadway
+  - name: RS Organic Market
+    address: 265 BEDFORD AVENUE
+  - name: Hop Stock and Barrel
+    address: "293 GRAND AVENUE      "
 ---
