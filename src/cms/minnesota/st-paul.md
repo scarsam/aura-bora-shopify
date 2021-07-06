@@ -8,4 +8,6 @@ stores:
     address: 740 East 7th Street East
   - name: Mississippi Market - West
     address: 1500 West 7th
+  - name: Tim & Tom's Speedy Market
+    address: 2310 Como Avenue
 ---
