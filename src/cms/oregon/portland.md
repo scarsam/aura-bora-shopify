@@ -12,4 +12,8 @@ stores:
     address: 11155 NE Halsey Street
   - name: Barbur World Foods
     address: 9845 SW Barbur Blvd.
+  - name: Hawthorne Chiropractor
+    address: 1222 SE DIVISION STREET
+  - name: People's Food Store
+    address: 3029 SE 21ST AVENUE
 ---
