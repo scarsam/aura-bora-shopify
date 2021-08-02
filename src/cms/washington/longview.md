@@ -8,4 +8,6 @@ stores:
     name: Walmart
   - name: Country Village Nutrition
     address: 1052 WASHINGTON WAY
+  - name: Let's Be Holistic
+    address: 1339 Commerce STE 106
 ---
